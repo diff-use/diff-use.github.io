@@ -1,1 +1,1 @@
-# Coming soon! :construction:
+Coming soon!
