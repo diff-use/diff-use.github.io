@@ -1,0 +1,36 @@
+# This file is used both to populated the members page on the website
+# and to create author profiles for the sidebar of each post or
+# publication. The ordering of the below entries sets the ordering of
+# the members page.
+
+# Below is the default form for people in the lab. The first 6 fields
+# (everything before "email") are mandatory.
+
+#lastname-firstname:
+#  name:     First Last
+#  bio:      Graduate student, Biophysics #lab position, appears in sidebar of every post
+#  fullbio:  "" #appears as the main text on the members page; new paragraphs require two blank lines
+#  avatar:   /assets/images/last-first.jpg #square headshot, ~500px and <300 kB
+#  member:   true #controls if entry is shown on members page
+#  email:    first.last@example.com
+#  twitter:  ExampleHandle
+#  website:  https://example.com/
+
+diffuse:
+  name:     diffUSE Project
+  bio:      Infrastructure for learning and representing conformational ensembles
+  avatar:   /assets/images/diffuse-logo.jpg
+  member:   false
+  email:    FIXME@diffuseproject.org
+
+hogan-daniel:
+  name:     Daniel Hogan
+  bio:      Computer guy
+  fullbio:  "Daniel graduated from Stanford, where he worked on single-molecule biophysics with Dr. Steven Block.
+
+In the Fraser lab, Daniel works to improve and expand the lab’s computational resources. He’s passionate about open science, open data, and open-source software.
+
+Outside of lab, Daniel can usually be found running or playing board games."
+  avatar:   /assets/images/hogan-daniel.jpg
+  member:   true
+  email:    daniel.hogan@ucsf.edu
