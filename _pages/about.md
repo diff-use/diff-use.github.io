@@ -5,6 +5,4 @@ title: "About"
 
 diffUSE: Infrastructure for Learning and Representing Conformational Ensembles
 
-A collaboration between:
-  * UCSF
-  * others
+Funding generously provided by Astera Institute and Voltage Park.
