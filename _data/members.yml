@@ -1,0 +1,44 @@
+- group: Diffuse Staff
+  items:
+    - name: Seemay Chou
+      title: Interim Director
+      photo: /images/members/chen.jpg      # paths are up to you
+    - name: Prof. Michael Rodriguez
+      title: Co-Principal Investigator
+      photo: /images/members/rodriguez.jpg
+    - name: Dr. Emily Watson
+      title: Project Manager
+      photo: /images/members/watson.jpg
+    - name: Dr. James Thompson
+      title: Research Director
+      photo: /images/members/thompson.jpg
+    - name: Dr. Maria Gonzalez
+      title: Data Science Lead
+      photo: /images/members/gonzalez.jpg
+    - name: Dr. David Kim
+      title: Infrastructure Lead
+      photo: /images/members/kim.jpg
+
+- group: Scientific Project Leads
+  items:
+    - name: Dr. Lisa Zhang
+      title: Structural Biology Lead
+      photo: /images/members/zhang.jpg
+    - name: Dr. Robert Johnson
+      title: Computational Biology Lead
+      photo: /images/members/johnson.jpg
+    - name: Dr. Anna Petrov
+      title: Machine Learning Lead
+      photo: /images/members/petrov.jpg
+
+- group: Beamline Scientists
+  items:
+    - name: Dr. Carlos Martinez
+      title: X-ray Facility Director
+      photo: /images/members/martinez.jpg
+    - name: Dr. Jennifer Lee
+      title: Neutron Facility Director
+      photo: /images/members/lee.jpg
+    - name: Dr. Thomas Wilson
+      title: Electron Microscopy Lead
+      photo: /images/members/wilson.jpg
