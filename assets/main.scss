@@ -1,0 +1,16 @@
+---
+---
+
+@import "minimal-mistakes";   /* ← pulls in the whole theme */
+
+/* ======== your custom rules BELOW this line ======== */
+html, body {
+  background: #f5f6fa;        // tint the canvas
+}
+
+.page,
+.post,
+.archive {
+  background: #ffffff;        // keep reading surface white
+  box-shadow: 0 1px 3px rgba(0,0,0,.06);
+}
