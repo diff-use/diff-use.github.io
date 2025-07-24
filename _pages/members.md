@@ -1,37 +1,36 @@
 ---
 permalink: /members/
-title: "Members"
+title: "Team Members"
+layout: default           # or "page" – whatever the other pages use
 ---
 
-{% for author in site.data.authors %}
-{% assign member = author[1] %}
-{% if member.member %}
-{% if member.current %}
+<!-- ─────────── HERO STRIP ─────────── -->
+<section class="hero">
+  <div class="wrapper container-padding">
+    <h1 class="heading-xl">Team Members</h1>
+    <p class="heading-lg">
+      Meet the dedicated researchers and scientists driving the diffUSE project forward
+    </p>
+  </div>
+</section>
 
-## {{ member.name }}
+<!-- ───────── GRID OF GROUPS & CARDS ───────── -->
+<div class="wrapper container-padding members-grid">
 
-{% if member.avatar %}
-![Photograph of {{member.name}}]({{member.avatar}}){:style="float: left; object-fit: contain; width: 30%; max-height: 12em; margin-left: 1em; margin-right: 1em;"}
-{% endif %}
+{% for block in site.data.members %}
+  <h2 class="heading-lg group-heading">{{ block.group }}</h2>
 
-{% if member.bio %}
-**{{ member.bio }}**
-{% endif %}
-
-{% if member.email %}
-Email: [{{ member.email }}](mailto:{{ member.email }})
-{% endif %}
-
-{% if member.website %}
-[Personal website]({{ member.website }})
-{% endif %}
-
-{% if member.twitter %}
-[@{{ member.twitter }}](https://twitter.com/{{ member.twitter }})
-{% endif %}
-
-{{ member.fullbio }}
-
-{% endif %}
-{% endif %}
+  <div class="card-column">
+  {% for person in block.items %}
+    <div class="member-card">
+      <img src="{{ person.photo }}" alt="{{ person.name }}" class="avatar" />
+      <div class="info">
+        <span class="name">{{ person.name }}</span><br>
+        <span class="title">{{ person.title }}</span>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
 {% endfor %}
+
+</div>
