@@ -1,18 +1,19 @@
-{% if page.github_comments_issueid and site.github_comments_repository %}
+{% if page.comments %}
 
-<div id="gh-comments">
-    <br/><br/>
-    <h6>COMMENTS</h6>
-    <div id="gh-comments-list"></div>
-</div>
-
-<script src="/assets/js/github-comments.js"> </script>
-
-<script type="text/javascript"> 
-    DoGithubComments ( 
-        "{{ site.github_comments_repository }}" , 
-        "{{ page.github_comments_issueid }}" 
-    ); 
+<script src="https://giscus.app/client.js"
+        data-repo="diff-use/diff-use.github.io"
+        data-repo-id="R_kgDOPO07gg"
+        data-category="General"
+        data-category-id="DIC_kwDOPO07gs4CtV5I"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
 </script>
 
 <noscript>Please enable JavaScript to view comments.</noscript>

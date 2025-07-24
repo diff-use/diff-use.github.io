@@ -7,7 +7,7 @@ categories:
   - posts
 tags:
   - meta
-github_comments_issueid: "1"
+comments: true
 ---
 
 Our new website is hosted by Github Pages, and its source code can be viewed [here](https://github.com/diff-use/diff-use.github.io/).

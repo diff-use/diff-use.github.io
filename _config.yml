@@ -21,7 +21,6 @@ twitter_username: username
 github_username: diff-use
 minimal_mistakes_skin: default
 search: true
-github_comments_repository: "dc25/myBlog-comments"
 
 # Build settings
 markdown: kramdown
