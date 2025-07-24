@@ -1,0 +1,24 @@
+---
+---
+
+/* =========================================================
+   Custom overrides — compiled into assets/main.css
+   ========================================================= */
+
+/* 1️⃣  Import the full Minimal Mistakes theme */
+@import "minimal-mistakes";
+
+/* 2️⃣  Your tweaks BELOW the import override theme styles */
+
+/* Page canvas tint */
+html, body {
+  background: #f5f6fa;     // pick any colour you like
+}
+
+/* Keep reading surface white (optional) */
+.page,
+.post,
+.archive {
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,.06);
+}
