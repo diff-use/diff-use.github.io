@@ -43,28 +43,30 @@ html, body {
 
 /* ── Members page: two-column card layout ──────────────────────── */
 
-/* keep the outer grid that separates groups */
-.members-grid {
-  display: grid;
-  grid-template-columns: 1fr;   /* one group per row */
-  gap: 2rem 3rem;
-  margin-top: 2rem;
+.members-layout {
+  display:flex; flex-wrap:wrap; gap:3rem;
 }
 
-/* make the card stacks themselves two columns ≥768 px */
-.card-column {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1rem;
+.left-col, .right-col {          /* each column */
+  flex:1 1 320px;
+  display:flex; flex-direction:column; gap:2rem;
 }
 
-/* mobile fallback → single column */
-@media (max-width: 767px) {
-  .card-column {
-    grid-template-columns: 1fr;
-  }
-}
+/* keep existing card & avatar rules … */
+.card-column  { display:flex; flex-direction:column; gap:1rem; }
 
+.member-card  { display:flex; align-items:center; gap:1rem;
+                padding:1rem 1.25rem; border:1px solid #e6e4dd;
+                border-radius:.5rem; background:#fff; }
+
+.avatar       { width:56px; height:56px; border-radius:50%; object-fit:cover; }
+.info { line-height:1.3; }  .name { font-weight:600; }
+.title { font-size:.875rem; color:#605f5b; }
+
+/* Mobile: stack columns */
+@media (max-width: 768px) {
+  .members-layout { flex-direction:column; }
+}
 /* existing card styling */
 .member-card {                       /* unchanged */
   display: flex; align-items: center; gap: 1rem;
