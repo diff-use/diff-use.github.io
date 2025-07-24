@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: diffUSE
+title: The Diffuse Project
 email: FIXME
-description: diffUSE project
+description: The Diffuse Project
 twitter_username: username
 github_username: diff-use
 minimal_mistakes_skin: default
