@@ -1,0 +1,11 @@
+---
+---
+
+@import "minimal-mistakes";         //  theme — leave at the very top
+
+/* ====  your overrides go BELOW  ==== */
+html, body      { background:#f5f6fa; }   /* tint canvas */
+.page,
+.post,
+.archive        { background:#ffffff;
+                   box-shadow:0 1px 3px rgba(0,0,0,.06); }
