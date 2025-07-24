@@ -7,10 +7,15 @@
 html, body {
   background:#ffffff;          // canvas = white
 }
-.page,
-.post,
-.archive,
-.page__inner-wrap {
-  background:transparent !important;  // inherit white from <body>
-  box-shadow:none !important;         // remove drop-shadow edge
+//.page,
+//.post,
+//.archive,
+//.page__inner-wrap {
+//  background:transparent !important;  // inherit white from <body>
+//  box-shadow:none !important;         // remove drop-shadow edge
+//}
+
+.masthead,
+.greedy-nav {
+  background:#ff8252 !important;    /* orange nav the theme used */
 }
