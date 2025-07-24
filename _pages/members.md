@@ -1,20 +1,17 @@
 ---
 permalink: /members/
-title: "Team Members"
-layout: default           # or "page" – whatever the other pages use
+title: "Members"
+layout: default          # or "page" – match other pages
 ---
 
-<!-- ─────────── HERO STRIP ─────────── -->
+<!-- HERO STRIP (uses your existing 'heading-xl' utility) -->
 <section class="hero">
   <div class="wrapper container-padding">
     <h1 class="heading-xl">Team Members</h1>
-    <p class="heading-lg">
-      Meet the dedicated researchers and scientists driving the diffUSE project forward
-    </p>
   </div>
 </section>
 
-<!-- ───────── GRID OF GROUPS & CARDS ───────── -->
+<!-- MEMBERS GRID -->
 <div class="wrapper container-padding members-grid">
 
 {% for block in site.data.members %}
