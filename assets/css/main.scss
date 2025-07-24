@@ -17,5 +17,26 @@ html, body {
 
 .masthead,
 .greedy-nav {
-  background:#ff8252 !important;    /* orange nav the theme used */
+  background:#cf6034 !important;    /* orange nav the theme used */
+}
+
+/* ─── Masthead text colour override ───────────────────────────── */
+.masthead,
+.greedy-nav,
+.masthead a,
+.greedy-nav a,
+.masthead button,
+.greedy-nav button,
+.masthead .navicon,
+.greedy-nav .navicon,
+.masthead svg,
+.greedy-nav svg {
+  color:#ffffff !important;          /* text & icons */
+  fill:#ffffff !important;           /* SVG paths */
+}
+
+/* optional: keep hover still white (otherwise it reverts to grey on hover) */
+.masthead a:hover,
+.greedy-nav a:hover {
+  color:#ffffff !important;
 }
