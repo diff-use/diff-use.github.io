@@ -1,25 +1,24 @@
 ---
 permalink: /members/
-title: Members          # keeps the navbar label unchanged
-layout: default         # or "page" – match your other pages
+title: Diffuse Team Members              # layout will auto-render this as page__title
+layout: default                  # or "page" – match your other content pages
 ---
-
-# Team Members           <!-- uses the default H1 font -->
 
 <div class="members-grid">
 
+{% comment %}  Loop over the new YAML you added in _data/members.yml {% endcomment %}
 {% for block in site.data.members %}
 ### {{ block.group }}
 
 <div class="card-column">
 {% for person in block.items %}
-<div class="member-card">
-  <img src="{{ person.photo }}" alt="{{ person.name }}" class="avatar">
-  <div class="info">
-    <span class="name">{{ person.name }}</span><br>
-    <span class="title">{{ person.title }}</span>
+  <div class="member-card">
+    <img src="{{ person.photo }}" alt="{{ person.name }}" class="avatar">
+    <div class="info">
+      <span class="name">{{ person.name }}</span><br>
+      <span class="title">{{ person.title }}</span>
+    </div>
   </div>
-</div>
 {% endfor %}
 </div>
 {% endfor %}
