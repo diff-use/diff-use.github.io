@@ -74,6 +74,15 @@ html, body {
 .info { line-height:1.3; }  .name { font-weight:600; }
 .title { font-size:.875rem; color:#605f5b; }
 
+img.avatar {
+  width: 90px !important;
+  height: 90px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  display: block;         /* eliminate inline‐img quirks */
+  flex-shrink: 0;         /* avoid flexbox resizing */
+}
+
 /* Mobile: stack columns */
 @media (max-width: 768px) {
   .members-layout { flex-direction:column; }
