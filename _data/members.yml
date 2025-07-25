@@ -20,13 +20,13 @@
   items:
     - name: James Fraser, Ph.D.
       title: Professor - UCSF, Bioengineering
-      photo: /assets/images/members/fraser.jpg
+      photo: /assets/images/members/Fraser.jpg
     - name: Nozomi Ando, Ph.D.
       title: Professor - Cornell, Chemistry & Chemical Biology
       photo: /assets/images/members/ando.jpg
     - name: Stephanie Wankowicz, Ph.D.
       title: Assoc. Professor - Vanderbilt, Molecular Physiology & Biophysics
-      photo: /assets/images/members/wankowicz.jpg
+      photo: /assets/images/members/Wankowicz.jpg
 
 - group: Beamline Scientists
   items:
