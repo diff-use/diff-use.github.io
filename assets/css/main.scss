@@ -87,6 +87,14 @@ img.avatar {
 @media (max-width: 768px) {
   .members-layout { flex-direction:column; }
 }
+
+/* ── snug up group headings & cards ── */
+.members-layout h2 {
+  margin-bottom: 0.5rem;   /* shrink space below the h2 */
+}
+.card-column {
+  margin-top: 0;           /* eliminate any extra top-margin */
+}
 /* existing card styling */
 .member-card {                       /* unchanged */
   display: flex; align-items: center; gap: 1rem;
