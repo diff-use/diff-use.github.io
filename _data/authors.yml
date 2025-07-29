@@ -38,13 +38,13 @@ Outside of lab, Daniel can usually be found running or playing board games."
 fraserlab:
   name:     James Fraser
   bio:      Prof @ UCSF
-  avatar:   /assets/images/Fraser.jpg
+  avatar:   /assets/images/members/Fraser.jpg
   member:   true
   email:    jfraser@fraserlab.com
 
 jmholton:
   name:     James Holton
   bio:      Beamline Scientist @ TomAlberTron
-  avatar:   /assets/images/holton.jpg
+  avatar:   /assets/images/members/holton.jpg
   member:   true
   email:    jmholton@lbl.gov
