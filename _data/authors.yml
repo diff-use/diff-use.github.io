@@ -34,3 +34,17 @@ Outside of lab, Daniel can usually be found running or playing board games."
   avatar:   /assets/images/hogan-daniel.jpg
   member:   true
   email:    daniel.hogan@ucsf.edu
+
+fraserlab:
+  name:     James Fraser
+  bio:      Prof @ UCSF
+  avatar:   /assets/images/Fraser.jpg
+  member:   true
+  email:    jfraser@fraserlab.com
+
+jmholton:
+  name:     James Holton
+  bio:      Beamline Scientist @ TomAlberTron
+  avatar:   /assets/images/holton.jpg
+  member:   true
+  email:    jmholton@lbl.gov
