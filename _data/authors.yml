@@ -48,3 +48,10 @@ jmholton:
   avatar:   /assets/images/members/holton.jpg
   member:   true
   email:    jmholton@lbl.gov
+
+spmeisburger:
+  name:     Steve Meisburger
+  bio:      Scientist at Cornell/CHESS
+  avatar:   /assets/images/members/meisburger.jpg
+  member:   true
+  email:    spm82@cornell.edu 
