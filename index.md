@@ -9,7 +9,7 @@ author_profile: true
 
 The era of static structure prediction is here.
 The next frontier lies in understanding dynamics.
-Macromolecules do not act as rigid entities; their functions emerge from ensembles of motions shaped by structure, environment, and interaction.
+Macromolecules do not act as rigid entities; their functions emerge from ensembles of motions shaped by structure, environment, and interactions.
 We are only beginning to appreciate how these motions contribute to recognition, catalysis, and regulation.
 We are in a state of exponential growth of new methods for collecting, modeling, and possibly predicting the flexibility ensembles.
 One of the most exciting aspects of this emerging frontier is that the details of conformational ensembles are often embedded within the experimental data used to derive the static macromolecular structures we’ve been collecting for decades.
