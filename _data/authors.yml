@@ -55,3 +55,10 @@ spmeisburger:
   avatar:   /assets/images/members/meisburger.jpg
   member:   true
   email:    spm82@cornell.edu 
+
+stephaniewankowicz:
+  name:     Stephanie Wankowicz
+  bio:      Asst Prof @ Vanderbilt
+  avatar:   /assets/images/members/wankowicz.jpg
+  member:   true
+  email:    stephanie@wankowiczlab.com
