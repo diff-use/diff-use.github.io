@@ -28,11 +28,11 @@ comments: true
 
 We want to know all about how proteins "dance" in the crystal. In addition to having their own individual moves (see the [DaVinci Dude Dance]({% post_url 2025-07-29-davinci %}) post), different proteins can't occupy the same space at the same time, and sense and respond to their neighbors, even at a distance. 
 
-Molecular-dynamics simulations give us a picture of the whole choreography. Starting starting with the crystal structure, our simulations evolve using assumptions about the underlying physics. The motions are random but follow patterns that show up in the diffraction. Right now researchers can make molecular-dynamics simulations agree reasonably well with the diffraction data, but the agreement isn't perfect. In particular, so far the simulations haven't done a very good job of modeling both the Bragg and diffuse data simultaneously.
+Molecular-dynamics simulations give us a picture of the whole choreography. Starting with the crystal structure, our simulations evolve using assumptions about the underlying physics. The motions are random but follow patterns that show up in the diffraction. Right now researchers can make molecular-dynamics simulations agree reasonably well with the diffraction data, but the agreement isn't perfect. In particular, so far the simulations haven't done a very good job of modeling both the Bragg and diffuse data simultaneously.
 
 We're working to fix this problem.
 
-Our first simulations are especially important, as they'll serve as a reference to assess our progress. Inspired by the projects' first experiments during the diffUSE kickoff meeting (see [Getting our feet wet]({% post_url 2025-07-30-wetfeet %}) post), we're performing simulations of SARS-Cov-2 Nsp3 macrodomain, the subject of a beautiful [neutron crystallography study](https://pmc.ncbi.nlm.nih.gov/articles/PMC9140965/) done in the Fraser lab. 
+Our first simulations are especially important, as they'll serve as a reference to assess our progress. Inspired by the project's first experiments during the diffUSE kickoff meeting (see [Getting our feet wet]({% post_url 2025-07-30-wetfeet %}) post), we're performing simulations of SARS-Cov-2 Nsp3 macrodomain, the subject of a beautiful [neutron crystallography study](https://pmc.ncbi.nlm.nih.gov/articles/PMC9140965/) done in the Fraser lab. 
 
 
 Above is a first look at the initial results. In the movie, the waters look like swarming gnats, the ions are balls, and the proteins are cartoon ribbons. The proteins wave around and also jostle their neighbors. Waters and ions diffuse and sometimes stick to the protein for a while. 
