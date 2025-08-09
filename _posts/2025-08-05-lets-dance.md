@@ -39,7 +39,7 @@ Above is a first look at the initial results. In the movie, the waters look like
 
 The simulated electron density in the center panel shows the average picture. It doesn't give us information about how atoms move together, but diffuse scattering does (right panel). Combining both will enable us to develop more accurate MD models of protein crystals.
 
-*Methods notes*
+*Methods*
 
 The [lunus](http://github.com.lanl/lunus) repository has some examples of how to [prepare](https://github.com/lanl/lunus/tree/master/examples/tutorials/crystalline_MD_prep) crystalline MD simulations and use them to analyze [Bragg](https://github.com/lanl/lunus/tree/master/examples/tutorials/crystalline_MD_analysis_bragg) and [diffuse](https://github.com/lanl/lunus/tree/master/examples/tutorials/crystalline_MD_analysis_diffuse) data. 
 
