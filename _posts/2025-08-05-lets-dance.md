@@ -28,7 +28,7 @@ comments: true
 
 We want to know all about how proteins "dance" in the crystal. In addition to having their own individual moves (see the [DaVinci Dude Dance]({% post_url 2025-07-29-davinci %}) post), different proteins can't occupy the same space at the same time, and sense and respond to their neighbors, even at a distance. 
 
-Molecular-dynamics simulations give us a picture of the whole choreography. Starting with the crystal structure, our simulations evolve using assumptions about the underlying physics. The motions are random but follow patterns that show up in the diffraction. Right now researchers can make molecular-dynamics simulations agree reasonably well with the diffraction data, but the agreement isn't perfect. In particular, so far the simulations haven't done a very good job of modeling both the Bragg and diffuse data simultaneously.
+Molecular-dynamics simulations give us a picture of the whole choreography. Starting with the crystal structure, our simulations evolve using assumptions about the underlying physics. The motions appear random but follow patterns that show up in the diffraction. Right now researchers can make molecular-dynamics simulations agree reasonably well with the diffraction data, but the agreement isn't perfect. In particular, so far the simulations haven't done a very good job of modeling both the Bragg and diffuse data simultaneously.
 
 We're working to fix this problem.
 
