@@ -62,3 +62,11 @@ stephaniewankowicz:
   avatar:   /assets/images/members/Wankowicz.jpg
   member:   true
   email:    stephanie@wankowiczlab.com
+
+mewall:
+  name:     Michael Wall
+  bio:      Scientist
+  avatar:   /assets/images/members/wall.jpg
+  member:   true
+  email:    mewall00@gmail.com 
+
