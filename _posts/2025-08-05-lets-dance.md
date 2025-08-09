@@ -8,8 +8,8 @@ categories:
 tags:
   - meta
 gallery:
-    - url: /assets/movies/posts/20250805_Mac1_MD.mov
-      image_path: /assets/movies/posts/20250805_Mac1_MD.mov
+    - url: /assets/movies/posts/20250805_Mac1_MD.gif
+      image_path: /assets/movies/posts/20250805_Mac1_MD.gif
       alt: "Visualization of Mac1 MD trajectory"
       title: "Visualization of Mac1 MD trajectory"
     - url: /assets/images/posts/20250805_Mac1_Bragg.jpg
