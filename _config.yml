@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: The Diffuse Project
-email: FIXME
+email: diffuse@astera.org
 description: The Diffuse Project
 twitter_username: username
 github_username: diff-use

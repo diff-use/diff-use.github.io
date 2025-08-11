@@ -17,11 +17,10 @@
 #  website:  https://example.com/
 
 diffuse:
-  name:     diffUSE Project
-  bio:      Infrastructure for learning and representing conformational ensembles
-  avatar:   /assets/images/diffuse-logo.jpg
-  member:   false
-  email:    FIXME@diffuseproject.org
+  name:     The Diffuse Project
+  bio:      Infrastructure for learning and representing protein motions from structural data
+  avatar:   /assets/images/diffuse_logo.jpg
+  email:    diffuse@astera.org
 
 hogan-daniel:
   name:     Daniel Hogan
