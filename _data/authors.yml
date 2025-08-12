@@ -18,7 +18,7 @@
 
 diffuse:
   name:     The Diffuse Project
-  bio:      Infrastructure for learning and representing protein motions from structural data
+  bio:      Infrastructure for collecting, modeling, and representing protein motions from structural data
   avatar:   /assets/images/diffuse_logo.jpg
   email:    diffuse@astera.org
   twitter:  diffUSEproject
