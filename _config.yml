@@ -61,6 +61,12 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/diff-use/"
+    - label: "X"
+      icon: "fab fa-fw fa-x"
+      url: "https://x.com/diffUSEproject"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/company/108302469/admin/dashboard/"
 
 defaults:
   # _posts

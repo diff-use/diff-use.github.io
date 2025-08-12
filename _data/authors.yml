@@ -21,6 +21,8 @@ diffuse:
   bio:      Infrastructure for learning and representing protein motions from structural data
   avatar:   /assets/images/diffuse_logo.jpg
   email:    diffuse@astera.org
+  twitter:  diffUSEproject
+  linkedin: diffuse-project
 
 hogan-daniel:
   name:     Daniel Hogan
