@@ -1,7 +1,7 @@
 ---
 name: Improve models of protein dynamics
 index: 4
-image: /assets/images/encoding.png
+image: /assets/images/modeling.png
 image_alt: Calculated signal from Macrodmain Simulation
 ---
 
