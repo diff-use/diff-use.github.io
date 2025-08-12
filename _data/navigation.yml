@@ -9,5 +9,7 @@ main:
     url: /posts/
   - title: "Tags"
     url: /tags/
+  - title: "Logbook"
+    url: "http://diffuse.science/logbook"
   - title: "About"
     url: /about/
