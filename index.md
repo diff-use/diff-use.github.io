@@ -29,7 +29,7 @@ We believe that changing the way protein motion is understood will require not j
 
 We’re working on a greenfield problem in a multi-dimensional methods system. Each part of our workflow depends on the others, so co-iterating across the full cycle significantly expands what you can try. 
 
-Therefore, we’re testing a new way to fund several parts of the pipeline at once, enabling team members to closely design and coordinate different dimensions. We hope a more holistic approach to rethinking what changes are possible and scalable.
+Therefore, we’re testing a new way to fund several parts of the pipeline at once, enabling team members to closely design and coordinate different dimensions. We believe in a more holistic approach to rethinking what changes are possible and scalable.
 
 
 
