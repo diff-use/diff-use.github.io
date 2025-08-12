@@ -1,11 +1,8 @@
 ---
-name: Modeling
-index: 1
-image: /assets/images/modeling.jpg
-image_alt: Modeling cartoon
+name: Define standards for sharing dynamic models
+index: 5
+image: /assets/images/modeling.jpeg
+image_alt: Gen AI image of protein motion
 ---
 
-For accurate ensemble prediction, we require ensemble models informed by multiple pieces of experimental data that jointly model proteins, ligands, and solvent.
-Currently, we model ensembles from Bragg peaks or Diffuse data and compare them, but they do not match well.
-We want to shift towards a paradigm where we directly learn from experimental data, leveraging insights from Bragg and Diffuse scattering, to develop a consistent model of a macromolecule’s conformational ensemble.
-We will test and implement three approaches, each targeting progressively more ambitious outcomes, and determine how best to integrate them.
+Traditional structural data files contain atomic coordinates and so-called B-factors, but there is no agreed-upon format for models of dynamics. We will establish effective standards for sharing these models.
