@@ -1,7 +1,7 @@
 ---
 name: Define standards for sharing dynamic models
 index: 5
-image: /assets/images/encoding.jpeg
+image: /assets/images/encoding.jpg
 image_alt: Gen AI image of protein motion
 ---
 
