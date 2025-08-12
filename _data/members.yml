@@ -1,41 +1,33 @@
-- group: Diffuse Staff
-  items:
-    - name: Seemay Chou, Ph.D.
-      title: Interim Director
-      photo: /assets/images/members/chou.jpg
-    - name: Justin Biel, Ph.D.
-      title: Software Engineer
-      photo: /assets/images/members/biel.jpg
-    - name: Prachee Avasthi, Ph.D.
-      title: Head of Open Science
-      photo: /assets/images/members/avasthi.jpg
-    - name: Jessica Polka, Ph.D.
-      title: Director of Open Science
-      photo: /assets/images/members/polka.jpg
-    - name: Nitin Gupta
-      title: Head of Product
-      photo: /assets/images/members/gupta.jpg
-
-- group: Scientific Project Leads
-  items:
-    - name: James Fraser, Ph.D.
-      title: Professor - UCSF, Bioengineering
-      photo: /assets/images/members/Fraser.jpg
-    - name: Nozomi Ando, Ph.D.
-      title: Professor - Cornell, Chemistry & Chemical Biology
-      photo: /assets/images/members/ando.jpg
-    - name: Stephanie Wankowicz, Ph.D.
-      title: Assistant Professor - Vanderbilt, Molecular Physiology & Biophysics
-      photo: /assets/images/members/Wankowicz.jpg
-
-- group: Scientists
-  items:
-    - name: James Holton, Ph.D.
-      title: Beamline Scientist - Lawrence Berkeley National Lab, Full Adjunct Professor - UCSF
-      photo: /assets/images/members/holton.jpg
-    - name: Steve Meisburger, Ph.D.
-      title: Staff Scientist - CHESS (Cornell High Energy Synchotron Source)
-      photo: /assets/images/members/meisburger.jpg
-    - name: Michael Wall, Ph.D.
-      title: Senior Scientist - Los Alamos National Laboratory
-      photo: /assets/images/members/wall.jpg
+  - name: Nozomi Ando, Ph.D.
+    title: Professor - Cornell, Chemistry & Chemical Biology
+    photo: /assets/images/members/ando.jpg
+  - name: Prachee Avasthi, Ph.D.
+    title: Head of Open Science
+    photo: /assets/images/members/avasthi.jpg
+  - name: Justin Biel, Ph.D.
+    title: Software Engineer
+    photo: /assets/images/members/biel.jpg
+  - name: Seemay Chou, Ph.D.
+    title: Interim Director
+    photo: /assets/images/members/chou.jpg
+  - name: James Fraser, Ph.D.
+    title: Professor - UCSF, Bioengineering
+    photo: /assets/images/members/Fraser.jpg
+  - name: Nitin Gupta
+    title: Head of Product
+    photo: /assets/images/members/gupta.jpg
+  - name: James Holton, Ph.D.
+    title: Beamline Scientist - Lawrence Berkeley National Lab, Full Adjunct Professor - UCSF
+    photo: /assets/images/members/holton.jpg
+  - name: Steve Meisburger, Ph.D.
+    title: Staff Scientist - CHESS (Cornell High Energy Synchotron Source)
+    photo: /assets/images/members/meisburger.jpg
+  - name: Jessica Polka, Ph.D.
+    title: Director of Open Science
+    photo: /assets/images/members/polka.jpg
+  - name: Michael Wall, Ph.D.
+    title: Senior Scientist - Los Alamos National Laboratory
+    photo: /assets/images/members/wall.jpg
+  - name: Stephanie Wankowicz, Ph.D.
+    title: Assistant Professor - Vanderbilt, Molecular Physiology & Biophysics
+    photo: /assets/images/members/Wankowicz.jpg
