@@ -35,7 +35,7 @@ Therefore, we’re testing a new way to fund several parts of the pipeline at on
 
 #### Publishing
 
-We strive for scientific rigor while ensuring our tools are broadly useful, as widespread adoption across the structural biology community will amplify our impact in both basic and translational science. To achieve this, we commit to opening our processes and [sharing our methods as early as possible]((https://diffuse.science/posts/).
+We strive for scientific rigor while ensuring our tools are broadly useful, as widespread adoption across the structural biology community will amplify our impact in both basic and translational science. To achieve this, we commit to opening our processes and [sharing our methods as early as possible](https://diffuse.science/posts/).
 
 
 Specifically, we are experimenting with novel [publishing practices](https://zenodo.org/records/15548989) outside of traditional journals, in accordance with Astera’s publication policy. 
