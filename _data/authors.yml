@@ -72,3 +72,9 @@ mewall:
   member:   true
   email:    mewall00@gmail.com 
 
+seemaychou:
+  name:     Seemay Chou
+  bio:      Interim Director
+  avatar:   /assets/images/members/chou.jpg
+  member:   true
+

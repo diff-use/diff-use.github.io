@@ -11,7 +11,6 @@ Structural biology has long been a key enabler for drug discovery and for unders
 
 To unlock the next frontier of advancements, we need new method advancements, more experimental data, and better ways to model and encode the dynamics of proteins.
 
-<!-- ![diffuse scattering slice](/assets/images/20250624_mapslice.png){:style="max-height:220px; display: inline; margin-left: auto; margin-right: auto;"} -->
 ![diffuse scattering signals](/assets/images/diffuse_signals.png){:style="max-height:300px; display: block; margin-left: auto; margin-right: auto;"}
 
 The Diffuse Project is dedicated to advancing our understanding of protein motion through the use of diffuse scattering: a largely overlooked signal measured by X-ray crystallography that could unlock our ability to measure protein dynamics. Concurrently, the Diffuse Project aims to build the infrastructure for learning and representing the rich information from this data.
@@ -21,7 +20,7 @@ The Diffuse Project was co-developed with funders and scientists. The team inclu
 ![MD simulated diffuse scattering](/assets/images/20250805_Mac1_diffuse_crop.png){:style="max-height:300px; display: block; margin-left: auto; margin-right: auto;"}
 
 ## Reimagining how we approach science
-We believe that changing the way protein motion is understood will require not just new methods but also new ways we work together as scientists. Namely, we are experimenting with how we coordinate efforts across the team and also how we share our scientific process and results. 
+We believe that changing the way protein motion is understood will require not just new methods but also new ways we work together as scientists. Namely, we are experimenting with how we coordinate efforts across the team and also how we share our scientific process and results. Read more about the philosophy behind the project [here](https://seemay.substack.com/p/from-systems-operators-to-systems).
 
 ![diffuse scattering pattern](/assets/images/main.jpg){:style="max-height:300px; display: block; margin-left: auto; margin-right: auto;"}
 
