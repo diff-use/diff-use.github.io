@@ -78,3 +78,10 @@ seemaychou:
   avatar:   /assets/images/members/chou.jpg
   member:   true
 
+kara-zielinski:
+  name:     Kara Zielinski
+  bio:      Postdoc @ UCSF
+  avatar:   /assets/images/members/zielinski.jpg
+  member:   false
+  email:    kara.zielinski@ucsf.edu
+
