@@ -27,3 +27,4 @@ The next steps involve the Ando Lab assessing the quality of the shipped crystal
 
 The Fraser Lab remains available to provide troubleshooting support and to ship additional protein as needed. Once we establish confidence in our shipping methods and crystal growth reproducibility, we will also prepare shipments of ligands to conduct soaking experiments.
 
+{% include github-comments.html %}
