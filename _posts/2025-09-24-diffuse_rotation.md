@@ -1,3 +1,15 @@
+---
+title:  Taylor's Diffuse Rotation
+layout: single
+author: twomack
+excerpt: What Taylor got done during his rotation.
+categories:
+  - posts
+tags:
+  - meta
+comments: true
+---
+
 # An Atypical PhD Start for an Atypical Student in Biophysics
 
 I walked into Jaime Fraser's office on a Friday in June, shortly before my early summer rotation at UCSF was about to start. As a physicist by training, I found his work on conformational entropy in proteins fascinating. But he quickly turned our conversation towards a topic I had never heard of before: diffuse X-Ray crystallography and somehow using it to solve protein ensembles and dynamics. "We're kicking off the initiative at a conference on Monday, you should come!"
