@@ -10,7 +10,7 @@ tags:
 comments: true
 ---
 
-# An Atypical PhD Start for an Atypical Student in Biophysics
+## An Atypical PhD Start for an Atypical Student in Biophysics
 
 I walked into Jaime Fraser's office on a Friday in June, shortly before my early summer rotation at UCSF was about to start. As a physicist by training, I found his work on conformational entropy in proteins fascinating. But he quickly turned our conversation towards a topic I had never heard of before: diffuse X-Ray crystallography and somehow using it to solve protein ensembles and dynamics. "We're kicking off the initiative at a conference on Monday, you should come!"
 
@@ -35,13 +35,14 @@ So do Bragg peaks still give you the protein structure when all different kinds 
 ![Insulin](/assets/images/posts/insulin_diffuse.png)
 *X-Ray scattering image of insulin. The signal between the sharp Bragg peaks is the diffuse scattering. The isotropic ring is due to water's presence in the crystal as a solvent, but non-isotropic diffuse signal is due in part to insulin's conformational ensemble. Meisberger and Ando (2023).*
 
+
 The dominant term contributing to this diffuse signal is known as Guinier's Equation:
 
 $$
 I_{\text{diffuse}}=I_{avg}-|F_{avg}|^2
 $$
 
-$I$ is the intensity reading on the detector and $F$ is the complex structure factor. These values are averaged (a phased average in the case of the structure factor) over each and every unit cell at each spot on the X-Ray detector. If each unit cell is truly identical, then $I_{avg}=|F_{avg}|^2$ and the diffuse signal is exactly zero. Now if you have ever learned that the intensity is the complex square of the structure factor, then you can see Guinier's Equation in a new light (transitioning to the angle brackets notation for ensemble averages):
+$I$ is the intensity reading on the detector and $F$ is the complex structure factor. These values are averaged (a phased average in the case of the structure factor) over each and every unit cell at each spot on the X-Ray detector. If each unit cell is truly identical, then the average intensity is the same as the square of the average structure factor and the diffuse signal is exactly zero. Now if you have ever learned that the intensity is the complex square of the structure factor, then you can see Guinier's Equation in a new light (transitioning to the angle brackets notation for ensemble averages):
 
 $$
 I_{\text{diffuse}}=<|F|^2>-|<F>|^2
@@ -80,4 +81,4 @@ In essense, the result of my summer project is a functional pipeline for simulat
 
 [^1]: [Github repo](https://github.com/jmholton/altloc_diffuse) with the scripts used to generate the datasets.
 
-[^2]: ```phenix.ensemble_refinement``` was co-developed between Lawrence Berkeley Nat'l Lab and B. Burnley and Piet Gros fo Utrecht University!
+[^2]: ```phenix.ensemble_refinement``` was co-developed between Lawrence Berkeley Nat'l Lab and B. Burnley and Piet Gros from Utrecht University!
