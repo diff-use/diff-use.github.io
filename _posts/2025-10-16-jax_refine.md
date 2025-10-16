@@ -113,8 +113,8 @@ Future directions include:
 
 ## Code and Data
 
-Karson’s implementation, `pearson_target.py`, is available [here]https://github.com/k-chrispens/simulation_timeseries_optim), and the test MTZ data can be downloaded from  
-[http://bl831.als.lbl.gov/~jamesh/pickup/diffUSE_CC_opt_test.tgz](http://bl831.als.lbl.gov/~jamesh/pickup/diffUSE_CC_opt_test.tgz)
+Karson’s implementation, `pearson_target.py`, is available [here](https://github.com/k-chrispens/simulation_timeseries_optim), and the test MTZ data can be downloaded from  
+[here](http://bl831.als.lbl.gov/~jamesh/pickup/diffUSE_CC_opt_test.tgz)
 
 ---
 
