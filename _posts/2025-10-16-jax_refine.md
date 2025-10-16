@@ -1,10 +1,16 @@
 ---
-layout: post
+layout: single
 title: "Optimizing Molecular Dynamics Weights with Machine Learning Tools"
 author: "James Holton, with contributions from Karson Chrispens, Steve, and Marcus Collins"
 date: 2025-10-16
-categories: [diffuse scattering, molecular dynamics, optimization, machine learning]
-description: "Using gradient-based optimization to identify the most physically relevant portions of MD trajectories by maximizing agreement with diffuse scattering data."
+categories:
+  - posts
+tags:
+  - diffuse scattering
+  - molecular dynamics
+  - optimization
+  - machine learning
+excerpt: "Using gradient-based optimization to identify the most physically relevant portions of MD trajectories by maximizing agreement with diffuse scattering data."
 ---
 
 In our latest round of diffuse scattering experiments, we ran into an intriguing optimization problem that feels a lot like training a neural network.
@@ -15,32 +21,28 @@ In our latest round of diffuse scattering experiments, we ran into an intriguing
 
 For each 3D pixel in reciprocal space (indexed by **h**), we have:
 
-- **Observed data**, `y(h)` from experiment  
-- **Predicted data**, `x(h)` computed from molecular dynamics (MD) trajectories  
+- **Observed data**, $y(h)$ from experiment  
+- **Predicted data**, $x(h)$ computed from molecular dynamics (MD) trajectories  
 
 We evaluate agreement using the **Pearson correlation coefficient**:
 
-```
+$$
+\mathrm{CC} =
+\frac{\langle x \cdot y \rangle - \langle x \rangle \langle y \rangle}
+{\sqrt{(\langle x^2 \rangle - \langle x \rangle^2)(\langle y^2 \rangle - \langle y \rangle^2)}}
+$$
 
-CC = (⟨x·y⟩ - ⟨x⟩⟨y⟩) / sqrt( (⟨x²⟩ - ⟨x⟩²) * (⟨y²⟩ - ⟨y⟩²) )
+Each prediction $x(h)$ is derived from **structure factors** $F(h, t)$ across time points in the MD simulation:
 
-```
+$$
+x(h) = \langle F(h)^2 \rangle_t - \langle F(h) \rangle_t^2
+$$
 
-Each prediction `x(h)` is derived from **structure factors** `F(h, t)` across time points in the MD simulation:
+The goal is to assign **weights** $w(t)$ to each time point to maximize $\mathrm{CC}$:
 
-```
-
-x(h) = ⟨F(h)²⟩_t - ⟨F(h)⟩_t²
-
-```
-
-The goal is to assign **weights** `w(t)` to each time point to maximize `CC`:
-
-```
-
-x'(h) = Σ_t [ w_t * F(h,t)² ] - [ Σ_t w_t * F(h,t) ]²
-
-```
+$$
+x'(h) = \sum_t w_t F(h,t)^2 - \left(\sum_t w_t F(h,t)\right)^2
+$$
 
 If we can find optimal weights, we can identify which regions of the trajectory best match experimental reality — potentially distinguishing “good” frames from those that detract from agreement.
 
@@ -48,21 +50,21 @@ If we can find optimal weights, we can identify which regions of the trajectory 
 
 ## Community Brainstorming
 
-**Steve** suggested asking whether `CC` is the right target — perhaps a likelihood might better capture the physics.
+**Steve** suggested asking whether $\mathrm{CC}$ is the right target — perhaps a likelihood might better capture the physics.
 
 **Karson Chrispens** proposed leveraging machine learning frameworks like **JAX** or **PyTorch** to treat the weights as trainable parameters.  
 By backpropagating through the Pearson correlation, an optimizer like Adam could efficiently learn the optimal weights.
 
 **James Holton** suspected this approach could outperform traditional non-linear least-squares optimization and shared example MTZ datasets for testing.
 
-**Steve** also mentioned using a **genetic algorithm** if the weights were binary (`0` or `1`), though acknowledged the continuous formulation might not have a unique minimum.
+**Steve** also mentioned using a **genetic algorithm** if the weights were binary ($0$ or $1$), though he acknowledged the continuous formulation might not have a unique minimum.
 
 ---
 
 ## Prototyping the Optimizer
 
 Karson quickly implemented a JAX-based prototype using **reciprocalspaceship** for MTZ I/O and **optax** for optimization.  
-The loss function was simply `–CC`, and weights were constrained to `(0, 1)` via a sigmoid.
+The loss function was simply $-\mathrm{CC}$, and weights were constrained to $(0, 1)$ via a sigmoid transform.
 
 When tested on toy datasets and real MTZ files, the optimizer:
 
@@ -93,7 +95,7 @@ Final CC: 0.78
 ## Discussion
 
 **Marcus Collins** noted that this approach resembles computing **Boltzmann-like factors** for each configuration and suggested PyTorch could be an equally good (and more common) platform.  
-He also cautioned that Pearson `CC` may not be the optimal objective function.
+He also cautioned that Pearson $\mathrm{CC}$ may not be the optimal objective function.
 
 Karson confirmed that JAX runs efficiently on GPUs and planned to scale the approach to larger datasets by stacking multiple MTZ files.
 
@@ -114,7 +116,7 @@ Future directions include:
 ## Code and Data
 
 Karson’s implementation, `pearson_target.py`, is available [here](https://github.com/k-chrispens/simulation_timeseries_optim), and the test MTZ data can be downloaded from  
-[here](http://bl831.als.lbl.gov/~jamesh/pickup/diffUSE_CC_opt_test.tgz)
+[here](http://bl831.als.lbl.gov/~jamesh/pickup/diffUSE_CC_opt_test.tgz).
 
 ---
 
