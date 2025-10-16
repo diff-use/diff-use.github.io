@@ -1,4 +1,3 @@
-```markdown
 ---
 layout: post
 title: "Optimizing Molecular Dynamics Weights with Machine Learning Tools"
@@ -121,5 +120,4 @@ Karson’s implementation, `pearson_target.py`, is available [here]https://githu
 
 **TL;DR:**  
 By treating MD frame weights as trainable parameters in a differentiable Pearson correlation objective, we can use ML optimizers like Adam to rapidly identify which parts of a trajectory best explain experimental diffuse scattering — turning a brute-force search into a smooth, data-driven optimization problem.
-```
 
