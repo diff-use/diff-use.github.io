@@ -3,13 +3,13 @@ layout: single
 title: "Optimizing Molecular Dynamics Weights with Machine Learning Tools"
 author: "James Holton, with contributions from Karson Chrispens, Steve, and Marcus Collins"
 date: 2025-10-16
-categories: 
-	- posts
+categories:
+  - posts
 tags:
-	- diffuse scattering
-	- molecular dynamics
-	- optimization
-	- machine learning
+  - diffuse scattering
+  - molecular dynamics
+  - optimization
+  - machine learning
 excerpt: "Using gradient-based optimization to identify the most physically relevant portions of MD trajectories by maximizing agreement with diffuse scattering data."
 ---
 
