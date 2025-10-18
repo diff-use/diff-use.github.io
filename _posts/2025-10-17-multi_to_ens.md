@@ -10,7 +10,7 @@ tags:
 comments: true
 ---
 
-## Representing conforamtional heterogeneity
+## Representing conformational heterogeneity
 Our structural biology techniques capture an enormous amount of conformational heterogeneity that is often lost in the transition from experimental data to deposited models. Part of this loss stems from a lack of sufficiently sophisticated algorithmic methods, which is an active area of development in this project and elsewhere. Still, an equally important factor is how we choose to encode structural heterogeneity in the models themselves. 
 
 
