@@ -85,3 +85,9 @@ kara-zielinski:
   member:   false
   email:    kara.zielinski@ucsf.edu
 
+andybphd:
+  name:     Andy Burnim
+  bio:      Project Manager @ Astera
+  avatar:   /assets/images/members/burnim.jpg
+  member:   true
+  email:    andy.burnim@astera.org
