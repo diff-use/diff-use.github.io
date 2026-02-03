@@ -109,10 +109,6 @@ img.avatar {
 .name    { font-weight:600; }
 .title   { font-size:.875rem; color:#605f5b; }
 
-
-/* Center the whole two-column layout and add side breathing-room */
-.members-layout        { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
-
 /* Bigger avatars & roomier cards */
 .member-card           { padding: 1.25rem 1.5rem; border-radius: .75rem; }
 
@@ -124,4 +120,26 @@ img.avatar {
 /* Make group headings line up nicely with cards */
 .group-heading         { margin: 0 0 .5rem; }
 
-/* Mobile still stacks naturally because of the flex-wrap rule set earlier */
+/* ── Equal height cards (CSS-only fix) ── */
+.left-col,
+.right-col,
+.card-column {
+  display: contents;
+}
+
+.members-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.member-card {
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .members-layout {
+    grid-template-columns: 1fr;
+  }
+}
