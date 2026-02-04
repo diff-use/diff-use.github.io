@@ -9,7 +9,5 @@ main:
     url: /tags/
   - title: "Logbook"
     url: "http://diffuse.science/logbook"
-  - title: "Careers"
-    url: "/careers/"
   - title: "About"
     url: /about/
