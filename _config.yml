@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The Diffuse Project
+title: The DiffUSE Project
 email: diffuse@astera.org
-description: The Diffuse Project
+description: The DiffUSE Project
 twitter_username: username
 github_username: diff-use
 minimal_mistakes_skin: default
