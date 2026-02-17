@@ -9,22 +9,22 @@ toc_sticky: true
 
 
 
-### An ambitious push to make protein motion routine
+### An ambitious push to unlock protein dynamics
 
-Structural biology is ready for its next leap. The DiffUSE Project sets out to turn the faint “diffuse” background in X-ray diffraction images into everyday maps of how proteins breathe and bend—information that static crystal structures and even AlphaFold predictions leave behind.
+The diffUSE Project aims to unlock our understanding of protein dynamics at a scale never before possible. We are integrating the experimental methods, computational models, data standards, and infrastructure required to capture and interpret molecular motion across the proteome. Our goal is to make dynamic structural biology as foundational and indispensable as the Protein Data Bank has been for static structures.
 
-We believe that changing the way protein motion is understood will require not just new methods but also new ways we work together as scientists. Namely, we are experimenting with how we coordinate efforts across the team and also how we share our scientific process and results. Read more about the philosophy behind the project [here](https://seemay.substack.com/p/from-systems-operators-to-systems).
+We believe that changing the structural biology ecosystem will require not just new methods but also new ways we work together as scientists. Namely, we are experimenting with how we coordinate efforts across the team and also how we share our scientific process and results. Read more about the philosophy behind the project [here](https://seemay.substack.com/p/from-systems-operators-to-systems).
 
 ### Why now?
-Static structures have plateaued. AlphaFold and traditional crystallography capture only a single snapshot; the diffuse signal around Bragg peaks holds the hidden information needed to model motion. With room-temperature collection methods improving and GPUs putting heavy computation within reach, the field finally has the tools to make that signal mainstream.
+Static structures have plateaued. Most of our structural biology models only encode a single snapshot. But the underlying data provides a much richer view into the dynamics of these molecules. This is demonstrated in crystallography, where the diffuse signal around Bragg peaks holds the hidden information needed to model motion. However, extracting this rich information involves changing the entire ecosystem, including how we collect, model, encode, and interpret these signals. 
 
 ![diffuse scattering pattern](/assets/images/main.jpg){:style="max-height:300px; display: block; margin-left: auto; margin-right: auto;"}
 
 #### A distributed team
 
-We are developing infrastructure alongside science. We are a distributed team experimenting with tightly interconnected workflows.
+We’re testing new ways to fund multiple parts of the pipeline simultaneously, enabling team members to design and coordinate across dimensions. We believe in a more holistic approach to rethinking what changes are possible and scalable.
 
-We’re testing a new ways to fund several parts of the pipeline at once, enabling team members to closely design and coordinate different dimensions. We believe in a more holistic approach to rethinking what changes are possible and scalable.
+We are a distributed team experimenting with tightly interconnected workflows.
 
 
 #### Novel publishing practices
