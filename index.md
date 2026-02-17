@@ -5,14 +5,14 @@ author_profile: false
 header:
   overlay_image: assets/images/20250805_Mac1_diffuse_crop.png
   overlay_filter: 0.4
-excerpt: "Advancing our understanding of protein motion"
+excerpt: "Unlocking Protein Dynamics"
 
 feature_row_science:
   - image_path: assets/images/morph2.gif
     alt: "diffuse scattering signals"
-    title: "Unlocking Protein Dynamics"
+    title: "Dynamic Structural Biology"
     excerpt: >
-      Proteins are dynamic and their functions are critically linked to fluctuations in state and motion. The DiffUSE Project is dedicated to advancing our understanding of protein motion through diffuse scattering, a largely overlooked signal in X-ray crystallography that could unlock our ability to measure protein dynamics.
+      Proteins are dynamic molecules. They move. They breathe. This movement enables their function. The diffUSE Project aims to unlock our understanding of protein dynamics at a scale never before possible. We are integrating the experimental methods, computational models, data standards, and infrastructure required to capture and interpret molecular motion across the proteome. Our goal is to make dynamic structural biology as foundational and indispensable as the Protein Data Bank has been for static structures.
     url: /research/
     btn_label: "Our Research"
     btn_class: "btn--primary"
@@ -22,7 +22,7 @@ feature_row_philosophy:
     alt: "DiffUSE kick-off meeting"
     title: "Reimagining How We Approach Science"
     excerpt: >
-      We believe that changing the way protein motion is understood will require not just new methods but also new ways we work together as scientists. We are experimenting with how we coordinate efforts and share our scientific process and results.
+      We believe that changing the ecosystem around unlocking protein dynamics will require not just new methods but also new ways we work together as scientists. We are experimenting with how we coordinate efforts and share our scientific process and results.
     url: /about/
     btn_label: "About the Project"
     btn_class: "btn--primary"
