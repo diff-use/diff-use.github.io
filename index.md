@@ -12,7 +12,7 @@ feature_row_science:
     alt: "diffuse scattering signals"
     title: "Unlocking Protein Dynamics"
     excerpt: >
-      Proteins are dynamic and their functions are critically linked to fluctuations in state and motion. The DiffUSE Project is dedicated to advancing our understanding of protein motion through diffuse scattering, a largely overlooked signal in X-ray crystallography that could unlock our ability to measure protein dynamics.
+      Proteins are dynamic molecules. Their functions are critically linked to fluctuations in state and motion. The DiffUSE Project is dedicated to advancing our understanding of protein motion through diffuse scattering, a largely overlooked signal in X-ray crystallography that could unlock our ability to measure protein dynamics.
     url: /research/
     btn_label: "Our Research"
     btn_class: "btn--primary"
