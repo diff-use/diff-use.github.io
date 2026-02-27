@@ -181,3 +181,30 @@ body .masthead .hidden-links {
 .sidebar__right.sticky {
   top: 100px !important;
 }
+
+.page__title {
+  font-size: 2em;
+  font-weight: 800;
+  color: #1e3a5f;
+}
+
+.page__content h2 {
+  border-bottom: 2px solid #e35821;
+  padding-bottom: 0.3em;
+}
+
+/* ── TOC tree lines ── */
+.toc__menu li ul {
+  position: relative;
+  margin-left: 0.5rem;
+  border-left: 1px solid #ddd;
+}
+
+.toc__menu li ul > li > a {
+  margin-left: -1px;
+  border-left: 2px solid transparent;
+}
+
+.toc__menu li ul > li > a:hover {
+  border-left: 2px solid #e35821;
+}
