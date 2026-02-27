@@ -103,3 +103,10 @@ categories:
 tag:
   type: liquid
   path: /tags/
+
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-QFTC635EK4"
+    anonymize_ip: true
