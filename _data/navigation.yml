@@ -9,4 +9,5 @@ main:
     url: /posts/
   - title: "Logbook"
     url: "http://diffuse.science/logbook"
-
+  - title: "Work With Us"
+    url: /work-with-us/
