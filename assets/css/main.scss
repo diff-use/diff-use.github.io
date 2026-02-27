@@ -1,27 +1,27 @@
 ---
 ---
 
-@import "minimal-mistakes";         //  theme — leave at the very top
+@import "minimal-mistakes";
 
-/* ====  your overrides go BELOW  ==== */
+/* ==== OVERRIDES ==== */
 html, body {
-  background:#ffffff;          // canvas = white
+  background: #ffffff;
 }
-//.page,
-//.post,
-//.archive,
-//.page__inner-wrap {
-//  background:transparent !important;  // inherit white from <body>
-//  box-shadow:none !important;         // remove drop-shadow edge
-//}
 
-.masthead,
+/* ── Navigation Bar ── */
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to bottom, #e35821 0%, #c94a1a 100%) !important;
+}
+
 .greedy-nav,
 .hidden-links {
-  background:#e35821 !important;    /* orange nav the theme used */
+  background: transparent !important;
 }
 
-/* ─── Masthead text colour override ───────────────────────────── */
 .masthead,
 .greedy-nav,
 .masthead a,
@@ -32,101 +32,39 @@ html, body {
 .greedy-nav .navicon,
 .masthead svg,
 .greedy-nav svg {
-  color:#ffffff !important;          /* text & icons */
-  fill:#ffffff !important;           /* SVG paths */
+  color: #ffffff !important;
+  fill: #ffffff !important;
 }
 
-/* optional: keep hover still white (otherwise it reverts to grey on hover) */
-.masthead a:hover,
+.site-title {
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.02em;
+}
+
+.greedy-nav a {
+  transition: transform 0.2s ease, font-weight 0.2s ease, color 0.2s ease;
+}
+
 .greedy-nav a:hover {
-  color:#ffffff !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  font-weight: 700 !important;
+  transform: scale(1.05);
+  color: #1e3a5f !important;
 }
 
-/* ── Members page: two-column card layout ──────────────────────── */
-
-.members-layout {
-  display:flex; flex-wrap:wrap; gap:3rem;
+.greedy-nav a::after,
+.greedy-nav a::before {
+  display: none !important;
 }
 
-.left-col, .right-col {          /* each column */
-  flex:1 1 320px;
-  display:flex; flex-direction:column; gap:2rem;
+/* ── Hero ── */
+.page__hero--overlay {
+  margin-top: 0;
 }
 
-/* keep existing card & avatar rules … */
-.card-column  { display:flex; flex-direction:column; gap:1rem; }
-
-.member-card {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 1.25rem 1.5rem;
-  border-radius: .75rem;
-
-  /* new pale-blue fill + matching border */
-  background: #e6f7ff;
-  border: 1px solid #b3dbff;
-
-  /* optional: soft shadow under the blue card */
-  box-shadow: 0 2px 4px rgba(0,  95, 184,  0.08);
-}
-
-.avatar       { width:56px; height:56px; border-radius:50%; object-fit:cover; }
-.info { line-height:1.3; }  .name { font-weight:600; }
-.title { font-size:.875rem; color:#605f5b; }
-
-img.avatar {
-  width: 90px !important;
-  height: 90px !important;
-  border-radius: 50% !important;
-  object-fit: cover !important;
-  display: block;         /* eliminate inline‐img quirks */
-  flex-shrink: 0;         /* avoid flexbox resizing */
-}
-
-/* Mobile: stack columns */
-@media (max-width: 768px) {
-  .members-layout { flex-direction:column; }
-}
-
-/* ── snug up group headings & cards ── */
-.members-layout h2 {
-  margin-bottom: 0.5rem;   /* shrink space below the h2 */
-}
-.card-column {
-  margin-top: 0;           /* eliminate any extra top-margin */
-}
-/* existing card styling */
-.member-card {                       /* unchanged */
-  display: flex; align-items: center; gap: 1rem;
-  padding: 1rem 1.25rem;
-  border: 1px solid #e6e4dd;
-  border-radius: .5rem;
-  background: #fff;
-}
-.avatar  { width:56px; height:56px; border-radius:50%; object-fit:cover; }
-.info    { line-height:1.3; }
-.name    { font-weight:600; }
-.title   { font-size:.875rem; color:#605f5b; }
-
-/* Bigger avatars & roomier cards */
-.member-card           { padding: 1.25rem 1.5rem; border-radius: .75rem; }
-
-.avatar                { width: 90px; height: 90px; }
-
-/* Give each card a subtle fill & shadow (optional) */
-.member-card           { background:#f6faff; box-shadow:0 1px 3px rgba(0,0,0,.06); }
-
-/* Make group headings line up nicely with cards */
-.group-heading         { margin: 0 0 .5rem; }
-
-/* ── Equal height cards (CSS-only fix) ── */
-.left-col,
-.right-col,
-.card-column {
-  display: contents;
-}
-
+/* ── Members Page ── */
 .members-layout {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -134,12 +72,71 @@ img.avatar {
   align-items: stretch;
 }
 
+.members-layout h2 {
+  margin-bottom: 0.5rem;
+}
+
+.left-col,
+.right-col,
+.card-column {
+  display: contents;
+}
+
 .member-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  border-radius: 0.75rem;
+  background: #f6faff;
+  border: 1px solid #e6e4dd;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
   height: 100%;
 }
+
+img.avatar {
+  width: 90px !important;
+  height: 90px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  display: block;
+  flex-shrink: 0;
+}
+
+.info { line-height: 1.3; }
+.name { font-weight: 600; }
+.title { font-size: 0.875rem; color: #605f5b; }
+.group-heading { margin: 0 0 0.5rem; }
 
 @media (max-width: 768px) {
   .members-layout {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* ── Remove white gap between nav and hero ── */
+.initial-content {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.page__hero--overlay {
+  margin-top: 0;
+  padding-top: 3rem;
+}
+
+/* ── Force gradient on masthead (higher specificity) ── */
+body .masthead {
+  background: linear-gradient(to bottom, #e35821 0%, #c94a1a 100%) !important;
+}
+
+body .masthead .greedy-nav,
+body .masthead .hidden-links {
+  background: transparent !important;
+}
+
+.masthead {
+  border-bottom: none !important;
+}
+
