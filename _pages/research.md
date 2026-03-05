@@ -9,9 +9,9 @@ toc_sticky: true
 
 
 ## Unlocking Protein Dynamics
-Static protein structures have transformed our understanding of life — but they are snapshots of molecules that are fundamentally in motion. Proteins' function is critically linked to this motion. Uncovering these motions will unlock new ways to understand disease, design better drugs, and engineer proteins with precise, tunable function.
+Biology is a study of motion and change — yet we still rely on frozen snapshots to understand it.
 
-The DiffUSE Project was co-developed with funders and scientists. The team includes both dedicated staff and institutional researchers to enable fast-paced infrastructure-building and specialized basic research. 
+Static structures can’t tell us what makes a designed enzyme functional, how dynamics shape drug efficacy and resistance, or how motion itself can be engineered and optimized. These are the questions at the frontier of drug discovery, enzyme design, and disease research. The DiffUSE project is building the methods, tools, and infrastructure to make protein motion visible, measurable, and usable — so this frontier becomes accessible to endless biological questions.
 
 ## Four Areas of Focus
 
