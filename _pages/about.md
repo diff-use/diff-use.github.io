@@ -10,9 +10,9 @@ toc_sticky: true
 
 
 ## An ambitious push to unlock protein dynamics
-Static protein structures have transformed our understanding of life — but they are snapshots of molecules that are fundamentally in motion. Proteins’ function is critically linked to this motion. Uncovering these motions will unlock new ways to understand disease, design better drugs, and engineer proteins with precise, tunable function.
+Static protein structures have transformed our understanding of life. But they are snapshots of molecules that are fundamentally in motion. Proteins’ function is critically linked to this motion. Uncovering these motions will unlock new ways to understand disease, design better drugs, and engineer proteins with precise, tunable function.
 
-The DiffUSE Project was co-developed with funders and scientists. The team includes both dedicated staff and institutional researchers to enable fast-paced infrastructure-building and specialized basic research.
+The DiffUSE Project was co-developed with funders and scientists. The team includes both dedicated staff and institutional researchers to enable rapid infrastructure development and specialized basic research.
 
 
 ### Four critical questions guiding our research
