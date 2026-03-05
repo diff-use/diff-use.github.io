@@ -41,7 +41,7 @@ Static structural biology has long been a key enabler of drug discovery and prot
 
 </div>
 
-
+## Our First Experimental Deep Dive: Diffuse Scattering
 
 Our first experimental deep dive is expanding the use of diffuse scattering: a largely overlooked signal measured by X-ray crystallography that could unlock our ability to measure protein dynamics. 
 
