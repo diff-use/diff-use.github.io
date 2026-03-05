@@ -12,7 +12,7 @@ feature_row_science:
     alt: "diffuse scattering signals"
     title: "Dynamic Structural Biology"
     excerpt: >
-      Proteins are dynamic molecules. They move. They breathe. This movement enables their function. The diffUSE Project aims to unlock our understanding of protein dynamics at a scale never before possible. We are integrating the experimental methods, computational models, data standards, and infrastructure required to capture and interpret molecular motion across the proteome. Our goal is to make dynamic structural biology as foundational and indispensable as the Protein Data Bank has been for static structures.
+      Proteins are dynamic molecules. They move. They breathe. This movement enables their function. The diffUSE Project is building the methods, tools, and infrastructure to make protein motion visible, measurable, and usable — transforming how we discover drugs, design biology, and understand disease.
     url: /research/
     btn_label: "Our Research"
     btn_class: "btn--primary"
@@ -22,7 +22,7 @@ feature_row_philosophy:
     alt: "DiffUSE kick-off meeting"
     title: "Reimagining How We Approach Science"
     excerpt: >
-      We believe that changing the ecosystem around unlocking protein dynamics will require not just new methods but also new ways we work together as scientists. We are experimenting with how we coordinate efforts and share our scientific process and results.
+     We believe that unlocking protein dynamics require not just new methods but also new ways we work together as scientists. By building openly, we are enabling the entire community to generate high-quality dynamic data at the scale and diversity needed to uncover the fundamental principles of how biology moves.
     url: /about/
     btn_label: "About the Project"
     btn_class: "btn--primary"
