@@ -33,7 +33,7 @@ The DiffUSE Project was co-developed with funders and scientists. The team inclu
   </details>
 
   <details style="flex: 1 1 calc(50% - 0.625rem); min-width: 260px; border: 1px solid rgba(227,88,33,.25); border-radius: 8px; padding: 1.5rem; background: rgba(227,88,33,.04); cursor: pointer;">
-    <summary style="font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: #e35821; list-style: none;">Impact</summary>
+    <summary style="font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: #e35821; list-style: none;">Biological Impact</summary>
     <p style="margin: .75rem 0 0; line-height: 1.7;">Elucidate how conformational ensembles drive function, from binding specificity and catalysis to mutational effects, by building the computational tools and metrics that make ensemble-aware enzyme design a practical reality.</p>
   </details>
 
