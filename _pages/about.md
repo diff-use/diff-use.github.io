@@ -20,7 +20,7 @@ The DiffUSE Project was co-developed with funders and scientists. The team inclu
 <div style="display: flex; flex-direction: column; gap: 0.75rem; margin: 1rem 0 1.5rem;">
 
   <div style="border-left: 3px solid #e35821; padding: 0.6rem 1rem; background: rgba(227,88,33,.04); border-radius: 0 6px 6px 0;">
-    What structural data are we missing, and how do we accelerate the technologies to capture it?
+    What dynamic structural data are we missing, and how do we accelerate the technologies to capture it?
   </div>
 
   <div style="border-left: 3px solid #e35821; padding: 0.6rem 1rem; background: rgba(227,88,33,.04); border-radius: 0 6px 6px 0;">
@@ -28,7 +28,7 @@ The DiffUSE Project was co-developed with funders and scientists. The team inclu
   </div>
 
   <div style="border-left: 3px solid #e35821; padding: 0.6rem 1rem; background: rgba(227,88,33,.04); border-radius: 0 6px 6px 0;">
-    How do we build enabling tools that empower everyone, not just experts, to leverage dynamic structural information?
+    How do we build tools that empower everyone, not just experts, to leverage dynamic structural information?
   </div>
 
   <div style="border-left: 3px solid #e35821; padding: 0.6rem 1rem; background: rgba(227,88,33,.04); border-radius: 0 6px 6px 0;">
