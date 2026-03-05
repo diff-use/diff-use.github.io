@@ -31,14 +31,13 @@ We strive for scientific rigor while ensuring our tools are broadly useful, as w
 
 ### How we are sharing our science
 
-- [The DiffUSE Project Logbook](http://diffuse.science/logbook): Catalog X-ray datasets, collect notes from synchrotron data collection, share reports from data processing, and post preliminary analysis without filters.
+We are experimenting with novel [publishing practices](https://zenodo.org/records/15548989) outside of traditional journals, in accordance with Astera’s publication policy. 
 
-- [The DiffUSE Data Management App](https://app.diffuse.science): Under active development, this site will function to document experiment processing with markdown, images, tables, and rich     metadata fields for comprehensive research tracking across datasets and beamlines.
+- [The DiffUSE Project Logbook](http://diffuse.science/logbook): Data from our diffuse scattering project, including catalog X-ray datasets, collect notes from synchrotron data collection, share reports from data processing, and post preliminary analysis without filters.
 
-- [Posts from our Scientists](https://diffuse.science/posts/):  Read direct dispatches from our distributed DiffUSE team.
+- [The DiffUSE Data Management App](https://app.diffuse.science): Under active development, this site will function to document experiment processing with markdown, images, tables, and rich metadata fields for comprehensive research tracking across datasets and beamlines.
 
-
-Specifically, we are experimenting with novel [publishing practices](https://zenodo.org/records/15548989) outside of traditional journals, in accordance with Astera’s publication policy. 
+- [Posts from our Scientists](https://diffuse.science/posts/): Read direct dispatches from our distributed DiffUSE team.
 
 
 Check back with us [here](https://diffuse.science/posts/) for updates on all of our various experiments!
