@@ -15,26 +15,26 @@ Static structural biology has long been a key enabler of drug discovery and prot
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.25rem; margin: 1.5rem 0 2.5rem;">
 
-  <div style="flex: 1 1 calc(50% - 0.625rem); min-width: 260px; border: 1px solid rgba(13,148,136,.25); border-radius: 8px; padding: 1.5rem; background: rgba(13,148,136,.04);">
-    <div style="font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: #2dd4bf; margin-bottom: .5rem;">Methods</div>
+  <div style="flex: 1 1 calc(50% - 0.625rem); min-width: 260px; border: 1px solid rgba(227,88,33,.25); border-radius: 8px; padding: 1.5rem; background: rgba(227,88,33,.04);">
+    <div style="font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: #e35821; margin-bottom: .5rem;">Methods</div>
     <h3 style="margin: 0 0 .75rem; font-size: 1.1rem;"></h3>
     <p style="margin: 0; line-height: 1.7;">Democratize dynamic structural biology methods so that capturing protein motion becomes routine.</p>
   </div>
 
-  <div style="flex: 1 1 calc(50% - 0.625rem); min-width: 260px; border: 1px solid rgba(13,148,136,.25); border-radius: 8px; padding: 1.5rem; background: rgba(13,148,136,.04);">
-    <div style="font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: #2dd4bf; margin-bottom: .5rem;">Modeling</div>
+  <div style="flex: 1 1 calc(50% - 0.625rem); min-width: 260px; border: 1px solid rgba(227,88,33,.25); border-radius: 8px; padding: 1.5rem; background: rgba(227,88,33,.04);">
+    <div style="font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: #e35821; margin-bottom: .5rem;">Modeling</div>
     <h3 style="margin: 0 0 .75rem; font-size: 1.1rem;"></h3>
     <p style="margin: 0; line-height: 1.7;">Model and predict conformational ensembles. Build interpretable models that reveal hidden structural states hidden in experimental data.</p>
   </div>
 
-  <div style="flex: 1 1 calc(50% - 0.625rem); min-width: 260px; border: 1px solid rgba(13,148,136,.25); border-radius: 8px; padding: 1.5rem; background: rgba(13,148,136,.04);">
-    <div style="font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: #2dd4bf; margin-bottom: .5rem;">Infrastructure</div>
+  <div style="flex: 1 1 calc(50% - 0.625rem); min-width: 260px; border: 1px solid rgba(227,88,33,.25); border-radius: 8px; padding: 1.5rem; background: rgba(227,88,33,.04);">
+    <div style="font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: #e35821; margin-bottom: .5rem;">Infrastructure</div>
     <h3 style="margin: 0 0 .75rem; font-size: 1.1rem;"></h3>
     <p style="margin: 0; line-height: 1.7;">Make dynamic data as accessible as static structures. Build the databases, standards, and tools so anyone — not just structural biologists — can leverage this data.</p>
   </div>
 
-  <div style="flex: 1 1 calc(50% - 0.625rem); min-width: 260px; border: 1px solid rgba(13,148,136,.25); border-radius: 8px; padding: 1.5rem; background: rgba(13,148,136,.04);">
-    <div style="font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: #2dd4bf; margin-bottom: .5rem;">Impact</div>
+  <div style="flex: 1 1 calc(50% - 0.625rem); min-width: 260px; border: 1px solid rgba(227,88,33,.25); border-radius: 8px; padding: 1.5rem; background: rgba(227,88,33,.04);">
+    <div style="font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: #e35821; margin-bottom: .5rem;">Impact</div>
     <h3 style="margin: 0 0 .75rem; font-size: 1.1rem;"></h3>
     <p style="margin: 0; line-height: 1.7;">Define the biological questions where dynamic structural information is most informative. Ensure every method and tool is grounded in real biological problems.</p>
   </div>
