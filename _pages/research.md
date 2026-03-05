@@ -11,6 +11,7 @@ toc_sticky: true
 ## Unlocking Protein Dynamics
 Static protein structures have transformed our understanding of life — but they are snapshots of molecules that are fundamentally in motion. Proteins' function is critically linked to this motion. Uncovering these motions will unlock new ways to understand disease, design better drugs, and engineer proteins with precise, tunable function.
 
+The DiffUSE Project was co-developed with funders and scientists. The team includes both dedicated staff and institutional researchers to enable fast-paced infrastructure-building and specialized basic research. 
 
 ## Four Areas of Focus
 
@@ -47,10 +48,6 @@ Static protein structures have transformed our understanding of life — but the
 Our first experimental deep dive is expanding the use of diffuse scattering: a largely overlooked signal measured by X-ray crystallography that could unlock our ability to measure protein dynamics. 
 
 ![diffuse scattering signals](/assets/images/diffuse_signals.png){:style="max-height:300px; display: block; margin-left: auto; margin-right: auto;"}
-
-The DiffUSE Project was co-developed with funders and scientists. The team includes both dedicated staff and institutional researchers to enable fast-paced infrastructure-building and specialized basic research. 
-
-## How we are sharing our science
 
 - [The DiffUSE Project Logbook](http://diffuse.science/logbook): Catalog X-ray datasets, collect notes from synchrotron data collection, share reports from data processing, and post preliminary analysis without filters.
 
