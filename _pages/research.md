@@ -58,8 +58,6 @@ Our first experimental deep dive is expanding the use of diffuse scattering: a l
 
 ![MD simulated diffuse scattering](/assets/images/20250805_Mac1_diffuse_crop.png){:style="max-height:300px; display: block; margin-left: auto; margin-right: auto;"}
 
-## The DiffUSE Project is working to
-
 {% assign interests = site.research | sort: "index" %}
 
 {% for interest in interests %}
