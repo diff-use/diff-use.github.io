@@ -16,6 +16,28 @@ Biology is a study of motion and change — yet we still rely on frozen snapshot
 
 Static structures can’t tell us what makes a designed enzyme functional, how dynamics shape drug efficacy and resistance, or how motion itself can be engineered and optimized. These are the questions at the frontier of drug discovery, enzyme design, and disease research. The DiffUSE project is building the methods, tools, and infrastructure to make protein motion visible, measurable, and usable — so this frontier becomes accessible to endless biological questions.
 
+### Four critical questions guiding our research
+
+<div style="display: flex; flex-direction: column; gap: 0.75rem; margin: 1rem 0 1.5rem;">
+
+  <div style="border-left: 3px solid #e35821; padding: 0.6rem 1rem; background: rgba(227,88,33,.04); border-radius: 0 6px 6px 0;">
+    What structural data are we missing, and how do we accelerate the technologies to capture it?
+  </div>
+
+  <div style="border-left: 3px solid #e35821; padding: 0.6rem 1rem; background: rgba(227,88,33,.04); border-radius: 0 6px 6px 0;">
+    Where will dynamic structural data have the greatest impact in revealing biological function?
+  </div>
+
+  <div style="border-left: 3px solid #e35821; padding: 0.6rem 1rem; background: rgba(227,88,33,.04); border-radius: 0 6px 6px 0;">
+    How do we build enabling tools that empower everyone, not just experts, to leverage dynamic structural information?
+  </div>
+
+  <div style="border-left: 3px solid #e35821; padding: 0.6rem 1rem; background: rgba(227,88,33,.04); border-radius: 0 6px 6px 0;">
+    How do we disseminate our tools and data to maximize scientific impact?
+  </div>
+
+</div>
+
 We believe that changing the structural biology ecosystem will require not just new methods but also new ways we work together as scientists. Namely, we are experimenting with how we coordinate efforts across the team and also how we share our scientific process and results. Read more about the philosophy behind the project [here](https://seemay.substack.com/p/from-systems-operators-to-systems).
 
 ## Why now?
