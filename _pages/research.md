@@ -31,13 +31,13 @@ Static protein structures have transformed our understanding of life — but the
   <div style="flex: 1 1 calc(50% - 0.625rem); min-width: 260px; border: 1px solid rgba(227,88,33,.25); border-radius: 8px; padding: 1.5rem; background: rgba(227,88,33,.04);">
     <div style="font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: #e35821; margin-bottom: .5rem;">Infrastructure</div>
     <h3 style="margin: 0 0 .75rem; font-size: 1.1rem;"></h3>
-    <p style="margin: 0; line-height: 1.7;">Make dynamic data as accessible as static structures. Build the databases, standards, and tools so anyone — not just structural biologists — can leverage this data.</p>
+    <p style="margin: 0; line-height: 1.7;">Make dynamic data as accessible as static structures. Build the databases, standards, and tools so anyone, not just structural biologists, can leverage this data.</p>
   </div>
 
   <div style="flex: 1 1 calc(50% - 0.625rem); min-width: 260px; border: 1px solid rgba(227,88,33,.25); border-radius: 8px; padding: 1.5rem; background: rgba(227,88,33,.04);">
     <div style="font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: #e35821; margin-bottom: .5rem;">Impact</div>
     <h3 style="margin: 0 0 .75rem; font-size: 1.1rem;"></h3>
-    <p style="margin: 0; line-height: 1.7;">Define the biological questions where dynamic structural information is most informative. Ensure every method and tool is grounded in real biological problems.</p>
+    <p style="margin: 0; line-height: 1.7;">Define the biological questions where dynamic structural information is most informative.</p>
   </div>
 
 </div>
