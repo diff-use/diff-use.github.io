@@ -19,22 +19,22 @@ The DiffUSE Project was co-developed with funders and scientists. The team inclu
 
   <details style="flex: 1 1 calc(50% - 0.625rem); min-width: 260px; border: 1px solid rgba(227,88,33,.25); border-radius: 8px; padding: 1.5rem; background: rgba(227,88,33,.04); cursor: pointer;">
     <summary style="font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: #e35821; list-style: none;">Methods</summary>
-    <p style="margin: .75rem 0 0; line-height: 1.7;">Democratize dynamic structural biology methods so that capturing protein motion becomes routine.</p>
+    <p style="margin: .75rem 0 0; line-height: 1.7;">We are supporting ambitious technical moonshots to improve how dynamic structural biology data is collected, processed, and extracted, with the goal of democratizing these methods so that capturing protein motion becomes routine.</p>
   </details>
 
   <details style="flex: 1 1 calc(50% - 0.625rem); min-width: 260px; border: 1px solid rgba(227,88,33,.25); border-radius: 8px; padding: 1.5rem; background: rgba(227,88,33,.04); cursor: pointer;">
     <summary style="font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: #e35821; list-style: none;">Modeling</summary>
-    <p style="margin: .75rem 0 0; line-height: 1.7;">Model and predict conformational ensembles. Build interpretable models that reveal hidden structural states hidden in experimental data.</p>
+    <p style="margin: .75rem 0 0; line-height: 1.7;">We are developing machine learning algorithms to uncover hidden information in experimental data, build more robust ensemble models, and leverage information across multiple experimental sources, enabling improved future ensemble prediction models.</p>
   </details>
 
   <details style="flex: 1 1 calc(50% - 0.625rem); min-width: 260px; border: 1px solid rgba(227,88,33,.25); border-radius: 8px; padding: 1.5rem; background: rgba(227,88,33,.04); cursor: pointer;">
     <summary style="font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: #e35821; list-style: none;">Infrastructure</summary>
-    <p style="margin: .75rem 0 0; line-height: 1.7;">Make dynamic data as accessible as static structures. Build the databases, standards, and tools so anyone, not just structural biologists, can leverage this data.</p>
+    <p style="margin: .75rem 0 0; line-height: 1.7;">Establish the standards and infrastructure needed to deposit, validate, search, and prepare dynamic structural data for machine learning at scale. Make dynamic data as accessible as static structures so that anyone, not just structural biologists, can leverage it to answer biological questions.</p>
   </details>
 
   <details style="flex: 1 1 calc(50% - 0.625rem); min-width: 260px; border: 1px solid rgba(227,88,33,.25); border-radius: 8px; padding: 1.5rem; background: rgba(227,88,33,.04); cursor: pointer;">
     <summary style="font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: #e35821; list-style: none;">Impact</summary>
-    <p style="margin: .75rem 0 0; line-height: 1.7;">Define the biological questions where dynamic structural information is most informative.</p>
+    <p style="margin: .75rem 0 0; line-height: 1.7;">Elucidate how conformational ensembles drive function, from binding specificity and catalysis to mutational effects, by building the computational tools and metrics that make ensemble-aware enzyme design a practical reality.</p>
   </details>
 
 </div>
