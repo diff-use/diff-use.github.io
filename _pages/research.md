@@ -11,7 +11,7 @@ toc_sticky: true
 ## Unlocking Protein Dynamics
 Static structural biology has long been a key enabler of drug discovery and protein function understanding. But proteins are dynamic, and their functions are critically linked to these dynamics. However, our ability to measure, model, and encode these dynamics has been limited. The diffUSE Project aims to unlock our understanding of protein dynamics at a scale never before possible. 
 
-## Four Pillars of Transformation
+## Four Areas of Focus
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.25rem; margin: 1.5rem 0 2.5rem;">
 
