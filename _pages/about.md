@@ -11,21 +11,19 @@ toc_sticky: true
 
 ## An ambitious push to unlock protein dynamics
 
-The diffUSE Project aims to unlock our understanding of protein dynamics at a scale never before possible. We are integrating the experimental methods, computational models, data standards, and infrastructure required to capture and interpret molecular motion across the proteome. Our goal is to make dynamic structural biology as foundational and indispensable as the Protein Data Bank has been for static structures.
+Biology is a study of motion and change — yet we still rely on frozen snapshots to understand it.
+
+
+Static structures can’t tell us what makes a designed enzyme functional, how dynamics shape drug efficacy and resistance, or how motion itself can be engineered and optimized. These are the questions at the frontier of drug discovery, enzyme design, and disease research. The DiffUSE project is building the methods, tools, and infrastructure to make protein motion visible, measurable, and usable — so this frontier becomes accessible to endless biological questions.
 
 We believe that changing the structural biology ecosystem will require not just new methods but also new ways we work together as scientists. Namely, we are experimenting with how we coordinate efforts across the team and also how we share our scientific process and results. Read more about the philosophy behind the project [here](https://seemay.substack.com/p/from-systems-operators-to-systems).
 
 ## Why now?
-Static structures have plateaued. Most of our structural biology models only encode a single snapshot. But the underlying data provides a much richer view into the dynamics of these molecules. This is demonstrated in crystallography, where the diffuse signal around Bragg peaks holds the hidden information needed to model motion. However, extracting this rich information involves changing the entire ecosystem, including how we collect, model, encode, and interpret these signals. 
-
-![diffuse scattering pattern](/assets/images/main.jpg){:style="max-height:300px; display: block; margin-left: auto; margin-right: auto;"}
+Static structures have plateaued. Most of our structural biology models only encode a single snapshot. But the underlying data provides a much richer view into the dynamics of these molecules. However, extracting this rich information involves changing the entire ecosystem, including how we collect, model, encode, and interpret these signals. 
 
 ## A distributed team
 
-We’re testing new ways to fund multiple parts of the pipeline simultaneously, enabling team members to design and coordinate across dimensions. We believe in a more holistic approach to rethinking what changes are possible and scalable.
-
-We are a distributed team experimenting with tightly interconnected workflows.
-
+We are a distributed team experimenting with new ways to fund multiple parts of the pipeline simultaneously, enabling team members to design and coordinate across dimensions. We believe in a more holistic approach to rethinking what changes are possible and scalable.
 
 ## Novel publishing practices
 
