@@ -9,9 +9,41 @@ toc_sticky: true
 
 
 ## Unlocking Protein Dynamics
-Static structural biology has long been a key enabler of drug discovery and protein function understanding. But proteins are dynamic, and their functions are critically linked to these dynamics. However, our ability to measure, model, and encode these dynamics has been limited. 
+Static structural biology has long been a key enabler of drug discovery and protein function understanding. But proteins are dynamic, and their functions are critically linked to these dynamics. However, our ability to measure, model, and encode these dynamics has been limited. The diffUSE Project aims to unlock our understanding of protein dynamics at a scale never before possible. 
 
-The diffUSE Project aims to unlock our understanding of protein dynamics at a scale never before possible. Our first experimental deep dive is expanding the use of diffuse scattering: a largely overlooked signal measured by X-ray crystallography that could unlock our ability to measure protein dynamics. 
+## Four Pillars of Transformation
+
+<div style="display: flex; flex-wrap: wrap; gap: 1.25rem; margin: 1.5rem 0 2.5rem;">
+
+  <div style="flex: 1 1 calc(50% - 0.625rem); min-width: 260px; border: 1px solid rgba(13,148,136,.25); border-radius: 8px; padding: 1.5rem; background: rgba(13,148,136,.04);">
+    <div style="font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: #2dd4bf; margin-bottom: .5rem;">Methods</div>
+    <h3 style="margin: 0 0 .75rem; font-size: 1.1rem;"></h3>
+    <p style="margin: 0; line-height: 1.7;">Democratize dynamic structural biology methods so that capturing protein motion becomes routine.</p>
+  </div>
+
+  <div style="flex: 1 1 calc(50% - 0.625rem); min-width: 260px; border: 1px solid rgba(13,148,136,.25); border-radius: 8px; padding: 1.5rem; background: rgba(13,148,136,.04);">
+    <div style="font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: #2dd4bf; margin-bottom: .5rem;">Modeling</div>
+    <h3 style="margin: 0 0 .75rem; font-size: 1.1rem;"></h3>
+    <p style="margin: 0; line-height: 1.7;">Model and predict conformational ensembles. Build interpretable models that reveal hidden structural states hidden in experimental data.</p>
+  </div>
+
+  <div style="flex: 1 1 calc(50% - 0.625rem); min-width: 260px; border: 1px solid rgba(13,148,136,.25); border-radius: 8px; padding: 1.5rem; background: rgba(13,148,136,.04);">
+    <div style="font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: #2dd4bf; margin-bottom: .5rem;">Infrastructure</div>
+    <h3 style="margin: 0 0 .75rem; font-size: 1.1rem;"></h3>
+    <p style="margin: 0; line-height: 1.7;">Make dynamic data as accessible as static structures. Build the databases, standards, and tools so anyone — not just structural biologists — can leverage this data.</p>
+  </div>
+
+  <div style="flex: 1 1 calc(50% - 0.625rem); min-width: 260px; border: 1px solid rgba(13,148,136,.25); border-radius: 8px; padding: 1.5rem; background: rgba(13,148,136,.04);">
+    <div style="font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: #2dd4bf; margin-bottom: .5rem;">Impact</div>
+    <h3 style="margin: 0 0 .75rem; font-size: 1.1rem;"></h3>
+    <p style="margin: 0; line-height: 1.7;">Define the biological questions where dynamic structural information is most informative. Ensure every method and tool is grounded in real biological problems.</p>
+  </div>
+
+</div>
+
+
+
+Our first experimental deep dive is expanding the use of diffuse scattering: a largely overlooked signal measured by X-ray crystallography that could unlock our ability to measure protein dynamics. 
 
 ![diffuse scattering signals](/assets/images/diffuse_signals.png){:style="max-height:300px; display: block; margin-left: auto; margin-right: auto;"}
 
