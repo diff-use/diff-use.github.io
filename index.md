@@ -22,7 +22,7 @@ feature_row_philosophy:
     alt: "DiffUSE kick-off meeting"
     title: "Reimagining How We Approach Science"
     excerpt: >
-     We believe that unlocking protein dynamics requires not just new methods but also new ways we work together as scientists. By building openly, we aim to enable the collection of dynamic data at the scale and diversity needed to uncover the fundamental principles of how biology moves.
+     We believe that unlocking protein dynamics requires not just new methods but also new ways we work together as scientists. By building openly, we aim to enable the collection of dynamic data at the scale and diversity needed to uncover the fundamental principles of biology.
     url: /about/
     btn_label: "About the Project"
     btn_class: "btn--primary"
