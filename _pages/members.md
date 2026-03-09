@@ -4,7 +4,7 @@ title: Team Members        # shows automatically as the normal page heading
 layout: default            # keep whatever your other pages use
 ---
 
-<h2>Diffuse Project Team Members</h2>{:style="text-align:center;margin-top: 20px"}
+<h2>DiffUSE Project Team Members</h2>{:style="text-align:center;margin-top: 20px"}
 
 <div class="members-layout">
   {%- assign first = site.data.members | first -%}
