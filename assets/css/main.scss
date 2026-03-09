@@ -64,6 +64,13 @@ html, body {
   margin-top: 0;
 }
 
+/* ── Tighten feature rows on splash page ── */
+.feature__wrapper {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
 /* ── Members Page ── */
 .members-layout {
   display: grid;
