@@ -5,9 +5,14 @@ main:
     url: /research/
   - title: "Members"
     url: /members/
-  - title: "Posts"
-    url: /posts/
-  - title: "Logbook"
-    url: "http://diffuse.science/logbook"
   - title: "Work With Us"
     url: /work-with-us/
+  - title: "Publications"
+    url: /publications/
+    children:
+      - title: "The DiffUSE Hub"
+        url: "https://hub.diffuse.science"
+      - title: "The DiffUSE Logbook"
+        url: "https://diffuse.science/logbook/"
+      - title: "DiffUSE Dispatches"
+        url: /posts/

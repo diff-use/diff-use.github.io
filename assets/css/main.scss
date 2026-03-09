@@ -59,6 +59,24 @@ html, body {
   display: none !important;
 }
 
+/* ── Navigation Dropdown (Publications) ── */
+.greedy-nav .visible-links li ul {
+  background: linear-gradient(to bottom, #e35821 0%, #c94a1a 100%) !important;
+  border-radius: 0 0 0.5rem 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  min-width: 200px;
+}
+
+.greedy-nav .visible-links li ul a {
+  padding: 0.5rem 1rem !important;
+  display: block;
+  white-space: nowrap;
+}
+
+.greedy-nav .visible-links li ul a:hover {
+  background: rgba(255, 255, 255, 0.15) !important;
+}
+
 /* ── Hero ── */
 .page__hero--overlay {
   margin-top: 0;
