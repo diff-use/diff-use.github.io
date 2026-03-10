@@ -84,6 +84,9 @@ permalink: /work-with-us/
       <h3><a href="https://jobs.ashbyhq.com/astera/32822f0a-63d3-4825-8340-f8037fa16953" target="_blank" rel="noopener">Scientist — Structural Biology Machine Learning</a></h3>
       <p>Astera Institute</p>
     </div>
+
+     <p>Contact us at diffuse [at] radial [dot] org with questions.</p>
+
   </div>
 
   <!-- Panel: Scientifically Engage -->
@@ -91,5 +94,8 @@ permalink: /work-with-us/
     <p>Interested in collaborating with the DiffUSE Project? Fill out the form below to get in touch.</p>
 
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdaTvW3fGYx_53s7cTm7E63SAUdeweCA4KEja6HHSLj9J5WnQ/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+    <p>Contact us at diffuse [at] radial [dot] org with questions. </p>
+
   </div>
 </div>
