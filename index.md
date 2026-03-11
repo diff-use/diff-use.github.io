@@ -8,7 +8,7 @@ header:
 excerpt: "Unlocking Protein Dynamics"
 
 feature_row_science:
-  - image_path: assets/images/morph2.gif
+  - image_path: assets/images/morph2_static.png
     alt: "diffuse scattering signals"
     title: "Dynamic Structural Biology"
     excerpt: >
@@ -28,7 +28,22 @@ feature_row_philosophy:
     btn_class: "btn--primary"
 
 ---
+
+<div class="video-hero-overlap">
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube.com/embed/_DILlMou1GM?autoplay=1&mute=1&cc_load_policy=1&loop=1&playlist=_DILlMou1GM&rel=0&modestbranding=1"
+      title="Introducing the DiffUSE Project"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
+<div class="scroll-reveal">
 {% include feature_row id="feature_row_science" type="left" %}
+</div>
 
 {% include feature_row id="feature_row_philosophy" type="right" %}
 
@@ -84,4 +99,39 @@ feature_row_philosophy:
 </div>
 
 ![diffUSE Project logo](/assets/images/diffuse_logo_banner.jpg){:style="max-height:300px; display: block; margin-left: auto; margin-right: auto;"}
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var sections = document.querySelectorAll('.scroll-reveal');
+  var gifImg = document.querySelector('img[src*="morph2_static"]');
+  var staticSrc = gifImg ? gifImg.src : '';
+  var gifSrc = staticSrc.replace('morph2_static.png', 'morph2.gif');
+  var hasScrolled = false;
+
+  window.addEventListener('scroll', function () {
+    hasScrolled = true;
+    sections.forEach(function (el) {
+      var rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom > 0) {
+        el.classList.add('is-visible');
+        if (gifImg) gifImg.src = gifSrc;
+      }
+    });
+  }, { once: true });
+
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting && hasScrolled) {
+        entry.target.classList.add('is-visible');
+        if (gifImg) gifImg.src = gifSrc;
+      } else if (!entry.isIntersecting && hasScrolled) {
+        entry.target.classList.remove('is-visible');
+        if (gifImg) gifImg.src = staticSrc;
+      }
+    });
+  }, { threshold: 0.15 });
+
+  sections.forEach(function (el) { observer.observe(el); });
+});
+</script>
 
