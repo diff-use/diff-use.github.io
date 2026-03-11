@@ -233,3 +233,49 @@ body .masthead .hidden-links {
 .toc__menu li ul > li > a:hover {
   border-left: 2px solid #e35821;
 }
+
+/* ── Hero Video Overlap ── */
+.video-hero-overlap {
+  position: relative;
+  z-index: 10;
+  max-width: 800px;
+  margin: -6rem auto 4rem;
+  padding: 0 1.5rem;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .video-hero-overlap {
+    margin-top: -4rem;
+    max-width: 95%;
+  }
+}
+
+/* ── Scroll Reveal ── */
+.scroll-reveal {
+  opacity: 0.15;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.scroll-reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
