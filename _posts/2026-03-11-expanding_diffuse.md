@@ -17,7 +17,7 @@ Biology is motion. From ecosystems to molecules, nothing is ever still. Life rel
 
 *Could we understand how drug efficacy and resistance arise? Could we better explain why mutations cause disease, or what makes a designed enzyme functional? Could we deliberately engineer dynamics to bias cell signaling?*
 
-Today, we are excited to announce that the DiffUSE Project is expanding. We are building the methods, algorithms, and infrastructure to unlock protein ensembles at an unprecedented scale. Because many of the most important biological questions can only be answered through ensembles.
+Today, we are excited to announce that the DiffUSE Project is expanding. We are building the infrastructure to collect and analyze protein ensembles at the scale of the Protein Data Bank. Because many of the most important biological questions can only be answered through ensembles.
 
 The DiffUSE Project, by [Radial, and funded by the Astera Institute](https://radial.org/), began by asking how we could rethink the pipeline for extracting the faint yet information-rich diffuse scattering signal in the "background" of X-ray crystallography experiments. Diffuse scattering may provide key, but often untapped, information on the heterogeneity of macromolecules in a crystal. With funding and operational support from the [Astera Institute](https://astera.org/), we assembled a purpose-built team spanning expertise across Astera and multiple institutions and began to re-engineer the components needed to fully optimize this, revealing structural ensembles.
 
