@@ -25,15 +25,21 @@ But collecting data is only part of the challenge. Every stage of structural bio
 
 The DiffUSE Project is completely rethinking how we collect, process, model, encode, disseminate, and interpret dynamic structural data. We are designing tools to enable downstream applications that meaningfully impact biology. 
 
+<img width="1920" height="1080" alt="Diffuse_Project_Areas 003" src="https://github.com/user-attachments/assets/ecb768aa-789b-4b19-8efc-721e72a28cfe" />
+<img width="1920" height="1080" alt="Diffuse_Project_Areas 003" src="https://github.com/user-attachments/assets/ecb768aa-789b-4b19-8efc-721e72a28cfe" />
+
+
+
 At every step, we are guided by the following questions:
   - What structural ensemble data are we missing, and how do we build the technologies to capture it? 
   - Where will structural ensemble data best help reveal biological function? 
   - How do we create tools that empower everyone, not just specialists, to work with conformational ensembles? 
   - How do we openly disseminate what we build to maximize scientific impact?
+
+
 We are taking this approach because we cannot get there alone. AlphaFold succeeded because decades of experimental structure determination built the data foundation it needed. No equivalent foundation exists for ensembles. Building that foundation and building the prediction methods must happen together — at a scale no single group can achieve. That is why we are not just generating data ourselves. We are building the tools, methods, and infrastructure to enable the entire community to collect, curate, and benchmark dynamic structural data.
 
 This entire project is also a metascience experiment that asks what it truly takes to tackle a large, systematic, and deeply integrated scientific problem. Some of what lies ahead is engineering. Some of it is science. Some of it is community building. We are pursuing this work both internally at Radial and through a growing network of partnerships and collaborations. Experimenting not only with the science itself but with how best to do it.
-
 
 **What are we building?**
 The DiffUSE project will focus on four areas, each advancing a different part of the dynamic structural pipeline simultaneously. Technique focused spokes will transform specialized dynamics techniques into routine, accessible methods. Algorithms will uncover hidden conformational states and integrate signals across techniques to help reveal the full dynamic landscape and provide key integration points for ensemble prediction. Infrastructure will evolve the PDB from a static archive into a living database capable of storing, validating, and querying dynamic structural data. And Biological Impact will ask questions that help ground our technical advance by asking: how does understanding dynamics actually change what we can understand, predict, design, and discover biology? 
