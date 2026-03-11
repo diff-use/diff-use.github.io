@@ -25,10 +25,7 @@ But collecting data is only part of the challenge. Every stage of structural bio
 
 The DiffUSE Project is completely rethinking how we collect, process, model, encode, disseminate, and interpret dynamic structural data. We are designing tools to enable downstream applications that meaningfully impact biology. 
 
-<img width="1920" height="1080" alt="Diffuse_Project_Areas 003" src="https://github.com/user-attachments/assets/ecb768aa-789b-4b19-8efc-721e72a28cfe" />
-<img width="1920" height="1080" alt="Diffuse_Project_Areas 003" src="https://github.com/user-attachments/assets/ecb768aa-789b-4b19-8efc-721e72a28cfe" />
-
-
+<img width="1920" height="1080" alt="Diffuse Project Areas" src="https://github.com/user-attachments/assets/ecb768aa-789b-4b19-8efc-721e72a28cfe" />
 
 At every step, we are guided by the following questions:
   - What structural ensemble data are we missing, and how do we build the technologies to capture it? 
