@@ -17,9 +17,14 @@ html, body {
   background: linear-gradient(to bottom, #e35821 0%, #c94a1a 100%) !important;
 }
 
-.greedy-nav,
-.hidden-links {
+.greedy-nav {
   background: transparent !important;
+}
+
+.hidden-links {
+  background: linear-gradient(to bottom, #e35821 0%, #c94a1a 100%) !important;
+  border-radius: 0 0 0.5rem 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .masthead,
