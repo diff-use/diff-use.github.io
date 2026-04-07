@@ -21,10 +21,24 @@ html, body {
   background: transparent !important;
 }
 
-.hidden-links {
+body .greedy-nav .hidden-links {
   background: linear-gradient(to bottom, #e35821 0%, #c94a1a 100%) !important;
+  border: none !important;
   border-radius: 0 0 0.5rem 0.5rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+body .greedy-nav .hidden-links a {
+  color: #ffffff !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+body .greedy-nav .hidden-links a:hover {
+  background: rgba(255, 255, 255, 0.15) !important;
+}
+
+body .greedy-nav .hidden-links::before {
+  border-color: transparent transparent #e35821 !important;
 }
 
 .masthead,
@@ -161,8 +175,7 @@ body .masthead {
   background: linear-gradient(to bottom, #e35821 0%, #c94a1a 100%) !important;
 }
 
-body .masthead .greedy-nav,
-body .masthead .hidden-links {
+body .masthead .greedy-nav {
   background: transparent !important;
 }
 
