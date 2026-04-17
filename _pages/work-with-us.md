@@ -71,7 +71,7 @@ permalink: /work-with-us/
     <p>We're hiring! The DiffUSE Project is looking for scientists passionate about understanding protein dynamics. View the full descriptions and apply through the links below.</p>
 
     <div class="job-card">
-      <h3><a href="https://jobs.ashbyhq.com/astera/c68cd9fd-59fb-4d0f-bf56-4b7d1b2e1e90" target="_blank" rel="noopener">Scientist — Structural Informatics Infrastructure</a></h3>
+      <h3><a href="https://jobs.ashbyhq.com/astera/c68cd9fd-59fb-4d0f-bf56-4b7d1b2e1e90" target="_blank" rel="noopener">Scientist — Ensemble Structural Informatics</a></h3>
       <p>Astera Institute</p>
     </div>
 
