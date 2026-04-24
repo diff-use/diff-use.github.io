@@ -97,3 +97,10 @@ sampleworks_team:
   bio:      Sampleworks Team
   avatar:   /assets/images/diffuse_logo.jpg
   member:   false
+
+dorismai:
+  name:     Doris Mai
+  bio:      Scientist
+  avatar:   /assets/images/members/mai.png
+  member:   true
+  email:    doris.mai@astera.org
