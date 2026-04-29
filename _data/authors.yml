@@ -60,10 +60,10 @@ spmeisburger:
 
 stephaniewankowicz:
   name:     Stephanie Wankowicz
-  bio:      Asst Prof @ Vanderbilt
+  bio:      Scientific Program Director
   avatar:   /assets/images/members/Wankowicz.jpg
   member:   true
-  email:    stephanie@wankowiczlab.com
+  email:    stephanie.wankowicz@astera.org
 
 mewall:
   name:     Michael Wall
@@ -74,7 +74,7 @@ mewall:
 
 seemaychou:
   name:     Seemay Chou
-  bio:      Interim Director
+  bio:      President, Astera Institute 
   avatar:   /assets/images/members/chou.jpg
   member:   true
 
