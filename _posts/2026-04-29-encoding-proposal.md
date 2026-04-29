@@ -45,6 +45,8 @@ Unlike traditional altloc usage—where identical altloc identifiers implicitly 
 Mutual compatibility among states is encoded separately in the state coexistence table. This table operates on heterogeneity IDs defined in the hierarchy and specifies logical rules(e.g., OR or NOT) that determine whether states may co-occur. Hierarchical relationships inherently encode AND relationships (parent and child states are coexistent by definition), whereas the coexistence table captures non-hierarchical logical constraints. Importantly, if no coexistence rule is specified between two heterogeneity IDs, they are assumed not to be mutually exclusive. As with altlocs, individual heterogeneity IDs are not expected to represent complete models in isolation; rather, the full hierarchy and coexistence definitions together should account for all atoms and fully explain the experimental data.
 
 ## Examples
+A few examples are visually laid out here. Example mmCIF models and other updated information can be found in the [Encoding Github Repository](https://github.com/diff-use/mmcif_encoding). 
+
 Consider a common situation in fragment screen data with extensive compositional heterogeneity. This structure has four ligands: three EDO molecules and a small fragment bound (Figure 1A). Based on occupancy, biochemical information, and overlap, it is known that when the fragment or EDO1 is bound, either EDO2 or EDO3 can then be bound. When EDO2 or EDO3 is bound, either EDO1 or the fragment is bound (Figure 1B). This example is shown in the proposed heterogeneity table in Figure 1C, and Figure 1D displays the atom table (which shows only one atom per ligand for simplicity). 
 
 ## Situations not addressed by the heterogeneity category
@@ -71,4 +73,43 @@ Visualization software should read the hierarchical heterogeneity loop to displa
 This proposal is primarily motivated by X-ray crystallography, which enables the precise detection of individual states owing to its high resolution and recent technological advances. While cryo-EM currently captures most of its compositional and conformational heterogeneity through 3D classification of maps36, we are beginning to routinely obtain structures at sufficiently high resolution to capture heterogeneity through both map classification and the encoding of multiplicity within structural models. 
 
 Furthermore, the machine-readability and human interpretability of the inherent heterogeneity within models are critical for advancing the use and prediction of conformational ensembles. By implementing this model, we anticipate that it will yield new tools and analyses to examine heterogeneity within and across structures, significantly expanding our understanding of the inherent heterogeneity in experimental structural biology data.
+
+## References
+1.	Baxevanis, A. D. & Francis Ouellette, B. F. Bioinformatics: A Practical Guide to the Analysis of Genes and Proteins. (John Wiley & Sons, 2004).
+2.	DePristo, M. A., de Bakker, P. I. W. & Blundell, T. L. Heterogeneity and inaccuracy in protein structures solved by X-ray crystallography. Structure 12, 831–838 (2004).
+3.	Leschziner, A. E. & Nogales, E. Visualizing flexibility at molecular resolution: analysis of heterogeneity in single-particle electron microscopy reconstructions. Annu Rev Biophys Biomol Struct 36, 43–62 (2007).
+4.	Smith, J. L., Hendrickson, W. A., Honzatko, R. B. & Sheriff, S. Structural heterogeneity in protein crystals. Biochemistry 25, 5018–5027 (1986).
+5.	Zhong, E. D., Bepler, T., Berger, B. & Davis, J. H. CryoDRGN: reconstruction of heterogeneous cryo-EM structures using neural networks. Nat Methods 18, 176–185 (2021).
+6.	Powell, B. M. & Davis, J. H. Learning structural heterogeneity from cryo-electron sub-tomograms with tomoDRGN. Nat Methods 21, 1525–1536 (2024).
+7.	Forsberg, B. O., Shah, P. N. M. & Burt, A. A robust normalized local filter to estimate compositional heterogeneity directly from cryo-EM maps. Nat Commun 14, 5802 (2023).
+8.	Rabuck-Gibbons, J. N., Lyumkis, D. & Williamson, J. R. Quantitative mining of compositional heterogeneity in cryo-EM datasets of ribosome assembly intermediates. Structure 30, 498–509.e4 (2022).
+9.	Du, S. et al. Refinement of multiconformer ensemble models from multi-temperature X-ray diffraction data. Methods Enzymol 688, 223–254 (2023).
+10.	Pearce, N. M. et al. A multi-crystal method for extracting obscured crystallographic states from conventionally uninterpretable electron density. Nat Commun 8, 15123 (2017).
+11.	Pearce, N. M., Krojer, T. & von Delft, F. Proper modelling of ligand binding requires an ensemble of bound and unbound states. Acta Crystallogr D Struct Biol 73, 256–266 (2017).
+12.	Wankowicz, S. A. & Fraser, J. S. Comprehensive encoding of conformational and compositional protein structural ensembles through the mmCIF data structure. IUCrJ 11, 494–501 (2024).
+13.	Hendrickson, W. A. Stereochemically restrained refinement of macromolecular structures. Methods Enzymol 115, 252–270 (1985).
+14.	Afonine, P. V. et al. Towards automated crystallographic structure refinement with phenix.refine. Acta Crystallogr D Biol Crystallogr 68, 352–367 (2012).
+15.	Correy, G. J. et al. Extensive exploration of structure activity relationships for the SARS-CoV-2 macrodomain from shape-based fragment merging and active learning. bioRxiv (2024) doi:10.1101/2024.08.25.609621.
+16.	Douangamath, A. et al. Achieving Efficient Fragment Screening at XChem Facility at Diamond Light Source. J Vis Exp (2021) doi:10.3791/62414.
+17.	Erlanson, D. et al. Where to house big data on small fragments? ChemRxiv (2025) doi:10.26434/chemrxiv-2025-hjjnj.
+18.	Šrajer, V. & Schmidt, M. Watching Proteins Function with Time-resolved X-ray Crystallography. J Phys D Appl Phys 50, (2017).
+19.	De Zitter, E., Coquelle, N., Oeser, P., Barends, T. R. M. & Colletier, J.-P. Xtrapol8 enables automatic elucidation of low-occupancy intermediate-states in crystallographic studies. Commun Biol 5, 640 (2022).
+20.	Greisman, J. B. et al. Resolving conformational changes that mediate a two-step catalytic mechanism in a model enzyme. bioRxiv (2023) doi:10.1101/2023.06.02.543507.
+21.	Wolff, A. M. et al. Mapping protein dynamics at high spatial resolution with temperature-jump X-ray crystallography. Nat Chem 15, 1549–1558 (2023).
+22.	Thompson, M. C. et al. Temperature-jump solution X-ray scattering reveals distinct motions in a dynamic enzyme. Nat Chem 11, 1058–1066 (2019).
+23.	Verlinde, C. L. M. J. et al. Fragment-based cocktail crystallography by the medical structural genomics of pathogenic protozoa consortium. Curr Top Med Chem 9, 1678–1687 (2009).
+24.	Chen, Z. et al. EMC chaperone-Ca structure reveals an ion channel assembly intermediate. Nature 619, 410–419 (2023).
+25.	Baker, L. A., Grange, M. & Grünewald, K. Electron cryo-tomography captures macromolecular complexes in native environments. Curr Opin Struct Biol 46, 149–156 (2017).
+26.	Westbrook, J. D. et al. PDBx/mmCIF Ecosystem: Foundational Semantic Tools for Structural Biology. J Mol Biol 434, 167599 (2022).
+27.	Flowers, J. et al. Expanding Automated Multiconformer Ligand Modeling to Macrocycles and Fragments. bioRxiv (2024) doi:10.1101/2024.09.20.613996.
+28.	Wankowicz, S. A. et al. Automated multiconformer model building for X-ray crystallography and cryo-EM. Elife 12, (2024).
+29.	Stachowski, T. R. & Fischer, M. FLEXR: automated multi-conformer model building using electron-density map sampling. Acta Crystallogr D Struct Biol 79, 354–367 (2023).
+30.	Emsley, P., Lohkamp, B., Scott, W. G. & Cowtan, K. Features and development of Coot. Acta Crystallogr D Biol Crystallogr 66, 486–501 (2010).
+31.	Adams, P. D. et al. PHENIX: a comprehensive Python-based system for macromolecular structure solution. Acta Crystallogr D Biol Crystallogr 66, 213–221 (2010).
+32.	Smart, O. S. et al. Exploiting structure similarity in refinement: automated NCS and target-structure restraints in BUSTER. Acta Crystallogr D Biol Crystallogr 68, 368–380 (2012).
+33.	Murshudov, G. N. et al. REFMAC5 for the refinement of macromolecular crystal structures. Acta Crystallogr D Biol Crystallogr 67, 355–367 (2011).
+34.	Lill, M. A. & Danielson, M. L. Computer-aided drug design platform using PyMOL. J Comput Aided Mol Des 25, 13–19 (2011).
+35.	Schneider, T. R. & Sheldrick, G. M. Substructure solution with SHELXD. Acta Crystallogr D Biol Crystallogr 58, 1772–1779 (2002).
+36.	Kimanius, D., Dong, L., Sharov, G., Nakane, T. & Scheres, S. H. W. New tools for automated cryo-EM single-particle analysis in RELION-4.0. Biochem J 478, 4169–4185 (2021).
+
 
