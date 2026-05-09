@@ -84,7 +84,7 @@ textarea.sf-input { min-height:88px; resize:vertical; }
   Setup instructions are in the file comments.
 </div>
 
-Contribute PDB or mmCIF structures to the DiffUSE heterogeneity dataset. We are looking for examples where the data or story is based on heterogeneity, yet this cannot be described in the current encoding strategy of PDBx/mmCIF files. We are hoping to obtain diverse examples from X-ray or cryo-EM, including time-resolved data, multiple maps, or fragment-screening data.
+We are looking for examples where heterogeneity is present and/or biologically important, yet cannot be described in the current encoding strategy of PDBx/mmCIF files. We are hoping to obtain diverse examples from X-ray or cryo-EM, including time-resolved data, multiple maps, or fragment-screening data.
 
 ---
 
