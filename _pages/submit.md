@@ -78,11 +78,6 @@ textarea.sf-input { min-height:88px; resize:vertical; }
 .spin { display:inline-block; width:1em; height:1em; border:2px solid rgba(255,255,255,.35); border-top-color:#fff; border-radius:50%; animation:spin .65s linear infinite; vertical-align:middle; }
 </style>
 
-<div class="notice--warning" id="cfg-warn" style="display:none">
-  <strong>Portal not configured.</strong>
-  Open <code>_pages/submit.md</code> and replace <code>GITHUB_TOKEN</code> with a real token.
-  Setup instructions are in the file comments.
-</div>
 
 We are looking for examples where heterogeneity is present and/or biologically important, yet cannot be described in the current encoding strategy of PDBx/mmCIF files. We are hoping to obtain diverse examples from X-ray or cryo-EM, including time-resolved data, multiple maps, or fragment-screening data.
 
@@ -134,10 +129,10 @@ We are looking for examples where heterogeneity is present and/or biologically i
 <div class="sf-group">
   <label class="sf-label">Data Type <span class="sf-req">*</span></label>
   <div class="types">
-    <label class="t-opt t-hot"><input type="checkbox" value="cryo_em"      onchange="tSync(this)"> Cryo-EM      
+    <label class="t-opt t-hot"><input type="checkbox" value="cryo_em"      onchange="tSync(this)"> Cryo-EM</label>      
     <label class="t-opt">      <input type="checkbox" value="xray"          onchange="tSync(this)"> X-ray</label>
     <label class="t-opt">      <input type="checkbox" value="xray"          onchange="tSync(this)"> Multiple Maps</label>
-    <label class="t-opt t-hot"><input type="checkbox" value="time_resolved" onchange="tSync(this)"> Time-resolved  
+    <label class="t-opt t-hot"><input type="checkbox" value="time_resolved" onchange="tSync(this)"> Time-resolved</label>  
     <label class="t-opt">      <input type="checkbox" value="other"         onchange="tSync(this)"> Other</label>
   </div>
   <div class="sf-hint">Select all that apply.</div>
