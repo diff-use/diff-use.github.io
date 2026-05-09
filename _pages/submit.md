@@ -156,8 +156,15 @@ Contribute PDB or mmCIF structures to the DiffUSE heterogeneity dataset. We are 
 <div class="sf-group">
   <label class="sf-label" for="f-het">Description of Heterogeneity <span class="sf-req">*</span></label>
   <textarea id="f-het" class="sf-input" required
-    placeholder="Describe the structural heterogeneity in your data — e.g. conformational switching between two states, disordered loop regions, multiple ligand-binding modes, domain motions across time-points, partial occupancy, etc."></textarea>
-  <div class="sf-hint">Explain what heterogeneity is present, what drives it, and why it is biologically or structurally meaningful.</div>
+    placeholder="Describe the structural heterogeneity in your data — e.g. disordered loop regions, multiple ligand-binding poses, domain motions, partial occupancy, etc."></textarea>
+  <div class="sf-hint">Explain what heterogeneity is present and why it is biologically or structurally meaningful.</div>
+</div>
+
+<div class="sf-group">
+  <label class="sf-label" for="f-het">Issues Communnicating Heterogeneity <span class="sf-req">*</span></label>
+  <textarea id="f-het" class="sf-input" required
+    placeholder="Describe issues communicating, visualizing, and/or refining heterogeneity with structural models."></textarea>
+  <div class="sf-hint">Explain what heterogeneity is present and why it is biologically or structurally meaningful.</div>
 </div>
 
 <div class="sf-group">
@@ -170,7 +177,7 @@ Contribute PDB or mmCIF structures to the DiffUSE heterogeneity dataset. We are 
 <div class="sf-group">
   <label class="sf-label" for="f-notes">Additional Notes</label>
   <textarea id="f-notes" class="sf-input" style="min-height:65px;"
-    placeholder="Any other context, caveats, or information useful to the DiffUSE team (optional)."></textarea>
+    placeholder="Any other context, caveats, or information useful (optional)."></textarea>
 </div>
 
 <div id="sf-status"></div>
