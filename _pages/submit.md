@@ -157,7 +157,7 @@ We are looking for examples where heterogeneity is present and/or biologically i
 
 <div class="sf-group">
   <label class="sf-label" for="f-het">Issues Communnicating Heterogeneity <span class="sf-req">*</span></label>
-  <textarea id="f-het" class="sf-input" required
+  <textarea id="f-issues" class="sf-input" required
     placeholder="Describe issues communicating, visualizing, and/or refining heterogeneity with structural models."></textarea>
   <div class="sf-hint">Explain what heterogeneity is present and why it is biologically or structurally meaningful.</div>
 </div>
