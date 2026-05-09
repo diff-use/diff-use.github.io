@@ -1,7 +1,7 @@
 ---
-title: "Submit Structural Data"
+title: "Submit Heterogeneous Structural Data"
 layout: single
-permalink: /submit/
+permalink: submit/
 ---
 
 <!--
