@@ -9,6 +9,8 @@ main:
     url: /work-with-us/
   - title: "Publications"
     url: /publications/
+  - title: "Submit Heterogeneity Data"
+    url: /submit/
     children:
       - title: "The DiffUSE Hub"
         url: "https://hub.diffuse.science"
