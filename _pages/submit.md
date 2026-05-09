@@ -21,7 +21,7 @@ permalink: /submit/
 -->
 <script>
 const CFG = {
-  GITHUB_TOKEN:     'github_pat_REPLACE_WITH_YOUR_TOKEN',
+  GITHUB_TOKEN:     '',
   GITHUB_OWNER:     'diff-use',
   GITHUB_REPO:      'diff-use.github.io',
   SUBMISSIONS_PATH: '_submissions'
