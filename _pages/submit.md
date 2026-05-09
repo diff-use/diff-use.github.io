@@ -134,12 +134,11 @@ Contribute PDB or mmCIF structures to the DiffUSE heterogeneity dataset. We are 
 <div class="sf-group">
   <label class="sf-label">Data Type <span class="sf-req">*</span></label>
   <div class="types">
-    <label class="t-opt t-hot"><input type="checkbox" value="cryo_em"      onchange="tSync(this)"> 🔬 Cryo-EM        <span class="t-enc">encouraged</span></label>
-    <label class="t-opt t-hot"><input type="checkbox" value="time_resolved" onchange="tSync(this)"> ⏱ Time-resolved  <span class="t-enc">encouraged</span></label>
-    <label class="t-opt">      <input type="checkbox" value="xray"          onchange="tSync(this)"> ⚡ X-ray</label>
-    <label class="t-opt">      <input type="checkbox" value="nmr"           onchange="tSync(this)"> 🧲 NMR</label>
-    <label class="t-opt">      <input type="checkbox" value="md_simulation" onchange="tSync(this)"> 💻 MD / Simulation</label>
-    <label class="t-opt">      <input type="checkbox" value="other"         onchange="tSync(this)"> 📋 Other</label>
+    <label class="t-opt t-hot"><input type="checkbox" value="cryo_em"      onchange="tSync(this)"> Cryo-EM      
+    <label class="t-opt">      <input type="checkbox" value="xray"          onchange="tSync(this)"> X-ray</label>
+    <label class="t-opt">      <input type="checkbox" value="xray"          onchange="tSync(this)"> Multiple Maps</label>
+    <label class="t-opt t-hot"><input type="checkbox" value="time_resolved" onchange="tSync(this)"> Time-resolved  
+    <label class="t-opt">      <input type="checkbox" value="other"         onchange="tSync(this)"> Other</label>
   </div>
   <div class="sf-hint">Select all that apply.</div>
 </div>
