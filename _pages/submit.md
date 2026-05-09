@@ -131,7 +131,7 @@ We are looking for examples where heterogeneity is present and/or biologically i
   <div class="types">
     <label class="t-opt t-hot"><input type="checkbox" value="cryo_em"      onchange="tSync(this)"> Cryo-EM</label>      
     <label class="t-opt">      <input type="checkbox" value="xray"          onchange="tSync(this)"> X-ray</label>
-    <label class="t-opt">      <input type="checkbox" value="xray"          onchange="tSync(this)"> Multiple Maps</label>
+    <label class="t-opt">      <input type="checkbox" value="multiple_maps"          onchange="tSync(this)"> Multiple Maps</label>
     <label class="t-opt t-hot"><input type="checkbox" value="time_resolved" onchange="tSync(this)"> Time-resolved</label>  
     <label class="t-opt">      <input type="checkbox" value="other"         onchange="tSync(this)"> Other</label>
   </div>
