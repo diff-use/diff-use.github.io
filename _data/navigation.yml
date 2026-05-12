@@ -7,10 +7,10 @@ main:
     url: /members/
   - title: "Work With Us"
     url: /work-with-us/
-  - title: "Publications"
-    url: /publications/
   - title: "Submit Heterogeneity Data"
     url: /submit/
+  - title: "Publications"
+    url: /publications/
     children:
       - title: "The DiffUSE Hub"
         url: "https://hub.diffuse.science"
