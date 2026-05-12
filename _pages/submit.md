@@ -4,22 +4,7 @@ layout: single
 permalink: submit/
 ---
 
-<!--
-  PORTAL CONFIGURATION
-  ────────────────────
-  Replace the placeholder below with a GitHub fine-grained Personal Access Token.
-
-  How to create the token:
-  1. Go to https://github.com/settings/personal-access-tokens/new
-  2. Token name: diffuse-submit-portal
-  3. Repository access: Only selected → diff-use/diff-use.github.io
-  4. Permissions: Repository permissions → Contents → Read and Write
-  5. Generate and paste the token below (starts with github_pat_)
-
-  Security note: This token is visible in page source. It is scoped to
-  write-only to this one repo. Rotate it periodically.
--->
-<script>
+WORKER_URL: 'https://diffuse-submit-proxy.diff-use.workers.dev',
 const CFG = {
   GITHUB_TOKEN:     '',
   GITHUB_OWNER:     'diff-use',
