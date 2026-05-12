@@ -6,7 +6,7 @@ permalink: submit/
 
 <script>
 const CFG = {
-  WORKER_URL:       'https://diffuse-website.stephanie-wankowicz.workers.dev',
+  WORKER_URL:       'diff-use.stephanie-wankowicz.workers.dev',
   SUBMISSIONS_PATH: '_submissions'
 };
 </script>
