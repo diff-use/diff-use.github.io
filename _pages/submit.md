@@ -1,5 +1,5 @@
 ---
-title: "Submit Heterogeneous Structural Data"
+title: "Submit Examples of Heterogeneous Structural Data"
 layout: single
 permalink: submit/
 ---
