@@ -4,11 +4,9 @@ layout: single
 permalink: submit/
 ---
 
-WORKER_URL: 'https://diffuse-submit-proxy.diff-use.workers.dev',
+<script>
 const CFG = {
-  GITHUB_TOKEN:     '',
-  GITHUB_OWNER:     'diff-use',
-  GITHUB_REPO:      'diff-use.github.io',
+  WORKER_URL:       'https://diffuse-website.stephanie-wankowicz.workers.dev',
   SUBMISSIONS_PATH: '_submissions'
 };
 </script>
@@ -54,15 +52,12 @@ textarea.sf-input { min-height:88px; resize:vertical; }
 .t-opt:hover { border-color:#e35821; }
 .t-opt.on    { border-color:#e35821; background:#fff8f5; }
 .t-opt input { accent-color:#e35821; flex-shrink:0; }
-.t-hot       { background:linear-gradient(135deg,#fff4f0,#fff9f6); border-color:#f0a070 !important; }
-.t-enc       { font-size:.68em; background:#e35821; color:#fff; padding:.1em .35em; border-radius:3px; margin-left:auto; font-weight:700; flex-shrink:0; }
 
 #sf-status { display:none; margin:1em 0 .5em; }
 
 @keyframes spin { to { transform:rotate(360deg); } }
 .spin { display:inline-block; width:1em; height:1em; border:2px solid rgba(255,255,255,.35); border-top-color:#fff; border-radius:50%; animation:spin .65s linear infinite; vertical-align:middle; }
 </style>
-
 
 We are looking for examples where heterogeneity is present and/or biologically important, yet cannot be described in the current encoding strategy of PDBx/mmCIF files. We are hoping to obtain diverse examples from X-ray or cryo-EM, including time-resolved data, multiple maps, or fragment-screening data.
 
@@ -114,11 +109,11 @@ We are looking for examples where heterogeneity is present and/or biologically i
 <div class="sf-group">
   <label class="sf-label">Data Type <span class="sf-req">*</span></label>
   <div class="types">
-    <label class="t-opt">      <input type="checkbox" value="cryo_em"      onchange="tSync(this)"> Cryo-EM</label>      
-    <label class="t-opt">      <input type="checkbox" value="xray"          onchange="tSync(this)"> X-ray</label>
-    <label class="t-opt">      <input type="checkbox" value="multiple_maps"          onchange="tSync(this)"> Multiple Maps</label>
-    <label class="t-opt">      <input type="checkbox" value="time_resolved" onchange="tSync(this)"> Time-resolved</label>  
-    <label class="t-opt">      <input type="checkbox" value="other"         onchange="tSync(this)"> Other</label>
+    <label class="t-opt"><input type="checkbox" value="cryo_em"      onchange="tSync(this)"> Cryo-EM</label>
+    <label class="t-opt"><input type="checkbox" value="xray"          onchange="tSync(this)"> X-ray</label>
+    <label class="t-opt"><input type="checkbox" value="multiple_maps" onchange="tSync(this)"> Multiple Maps</label>
+    <label class="t-opt"><input type="checkbox" value="time_resolved" onchange="tSync(this)"> Time-resolved</label>
+    <label class="t-opt"><input type="checkbox" value="other"         onchange="tSync(this)"> Other</label>
   </div>
   <div class="sf-hint">Select all that apply.</div>
 </div>
@@ -141,10 +136,10 @@ We are looking for examples where heterogeneity is present and/or biologically i
 </div>
 
 <div class="sf-group">
-  <label class="sf-label" for="f-het">Issues Communnicating Heterogeneity <span class="sf-req">*</span></label>
+  <label class="sf-label" for="f-issues">Issues Communicating Heterogeneity <span class="sf-req">*</span></label>
   <textarea id="f-issues" class="sf-input" required
     placeholder="Describe issues communicating, visualizing, and/or refining heterogeneity with structural models."></textarea>
-  <div class="sf-hint">Explain what heterogeneity is present and why it is biologically or structurally meaningful.</div>
+  <div class="sf-hint">Explain what issues arise when trying to represent or communicate this heterogeneity.</div>
 </div>
 
 <div class="sf-group">
@@ -180,16 +175,8 @@ We are looking for examples where heterogeneity is present and/or biologically i
 </div>
 
 <script>
-// ── Config check ────────────────────────────────────────────────────
-document.addEventListener('DOMContentLoaded', function () {
-  if (CFG.GITHUB_TOKEN.includes('REPLACE_') || CFG.GITHUB_TOKEN.includes('YOUR_'))
-    document.getElementById('cfg-warn').style.display = 'block';
-});
-
-// ── State ────────────────────────────────────────────────────────────
 var files = [];
 
-// ── PDB code rows ────────────────────────────────────────────────────
 function addPdb() {
   var row = document.createElement('div');
   row.className = 'pdb-row';
@@ -204,7 +191,6 @@ function rmPdb(btn) {
   else btn.closest('.pdb-row').querySelector('input').value = '';
 }
 
-// ── File upload ──────────────────────────────────────────────────────
 function dzOver(e)  { e.preventDefault(); document.getElementById('dz').classList.add('over'); }
 function dzLeave()  { document.getElementById('dz').classList.remove('over'); }
 function dzDrop(e)  { e.preventDefault(); dzLeave(); addFiles(e.dataTransfer.files); }
@@ -233,26 +219,29 @@ function renderFiles() {
 }
 function rmFile(i) { files.splice(i,1); renderFiles(); }
 
-// ── Type checkboxes ──────────────────────────────────────────────────
 function tSync(cb) { cb.closest('.t-opt').classList.toggle('on', cb.checked); }
 
-// ── Submit ───────────────────────────────────────────────────────────
 async function doSubmit(e) {
   e.preventDefault();
-  var name     = val('f-name');
-  var email    = val('f-email');
-  var doi      = val('f-doi');
-  var het      = val('f-het');
-  var residues = val('f-res');
-  var notes    = val('f-notes');
-  var pdbCodes = Array.from(document.querySelectorAll('.pdb-code')).map(function(el){ return el.value.trim().toUpperCase(); }).filter(function(v){ return v.length>=4; });
-  var dataTypes = Array.from(document.querySelectorAll('.t-opt input:checked')).map(function(el){ return el.value; });
+  var name      = val('f-name');
+  var email     = val('f-email');
+  var doi       = val('f-doi');
+  var het       = val('f-het');
+  var issues    = val('f-issues');
+  var residues  = val('f-res');
+  var notes     = val('f-notes');
+  var pdbCodes  = Array.from(document.querySelectorAll('.pdb-code'))
+                    .map(function(el){ return el.value.trim().toUpperCase(); })
+                    .filter(function(v){ return v.length >= 4; });
+  var dataTypes = Array.from(document.querySelectorAll('.t-opt input:checked'))
+                    .map(function(el){ return el.value; });
 
   if (!name)                             { setStatus('notice--danger','Please enter your full name.'); return; }
   if (!email)                            { setStatus('notice--danger','Please enter your email address.'); return; }
   if (!pdbCodes.length && !files.length) { setStatus('notice--danger','Please provide at least one PDB code or upload a structure file.'); return; }
   if (!dataTypes.length)                 { setStatus('notice--danger','Please select at least one data type.'); return; }
   if (!het)                              { setStatus('notice--danger','Please describe the heterogeneity in your data.'); return; }
+  if (!issues)                           { setStatus('notice--danger','Please describe the issues communicating heterogeneity.'); return; }
 
   var btn = document.getElementById('sf-btn');
   btn.disabled = true;
@@ -260,18 +249,18 @@ async function doSubmit(e) {
 
   try {
     var ts     = new Date().toISOString().slice(0,19);
-    var tsPath = ts.replace('T','T').replace(/:/g,'-');
+    var tsPath = ts.replace(/:/g,'-');
     var safe   = name.replace(/[^a-zA-Z0-9]+/g,'-').replace(/^-+|-+$/g,'').toLowerCase().slice(0,28);
     var folder = CFG.SUBMISSIONS_PATH + '/' + tsPath + '_' + safe;
-    var yaml   = buildYaml({name,email,pdbCodes,dataTypes,doi,het,residues,notes,fileNames:files.map(function(f){return f.name;}),ts});
+    var yaml   = buildYaml({name,email,pdbCodes,dataTypes,doi,het,issues,residues,notes,fileNames:files.map(function(f){return f.name;}),ts});
 
     setStatus('notice--info','Creating submission record…');
-    await ghPut(folder+'/metadata.yml', toB64(yaml), 'Add submission from '+name);
+    await workerPut(folder+'/metadata.yml', toB64(yaml), 'Add submission from '+name);
 
     for (var i=0; i<files.length; i++) {
       var f = files[i];
       setStatus('notice--info','Uploading '+esc(f.name)+' ('+(i+2)+'/'+(files.length+1)+')…');
-      await ghPut(folder+'/'+f.name, await fileB64(f), 'Add '+f.name+' from '+name);
+      await workerPut(folder+'/'+f.name, await fileB64(f), 'Add '+f.name+' from '+name);
     }
 
     document.getElementById('sf-wrap').style.display = 'none';
@@ -287,7 +276,18 @@ async function doSubmit(e) {
   }
 }
 
-// ── YAML builder ─────────────────────────────────────────────────────
+async function workerPut(path, content, message) {
+  var r = await fetch(CFG.WORKER_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ path, content, message })
+  });
+  var d = {};
+  try { d = await r.json(); } catch(_) {}
+  if (!r.ok) throw new Error(d.error || 'HTTP ' + r.status);
+  return d;
+}
+
 function buildYaml(o) {
   var y  = '---\n';
   y += 'submitted_at: "'+o.ts+'Z"\n';
@@ -298,12 +298,12 @@ function buildYaml(o) {
   y += 'data_types:\n'+(o.dataTypes.length ? o.dataTypes.map(function(t){ return '  - '+t; }).join('\n')+'\n' : '  []\n');
   y += 'publication:\n  doi: "'+q(o.doi)+'"\n';
   y += 'heterogeneity:\n  description: |\n'+o.het.split('\n').map(function(l){ return '    '+l; }).join('\n')+'\n';
+  y += '  issues: |\n'+o.issues.split('\n').map(function(l){ return '    '+l; }).join('\n')+'\n';
   y += '  residues: "'+q(o.residues)+'"\n';
   y += 'notes: "'+q(o.notes)+'"\n---\n';
   return y;
 }
 
-// ── Helpers ───────────────────────────────────────────────────────────
 function val(id) { return document.getElementById(id).value.trim(); }
 function esc(s)  { return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 function q(s)    { return (s||'').replace(/\\/g,'\\\\').replace(/"/g,'\\"'); }
@@ -312,15 +312,6 @@ function fileB64(f) {
   return new Promise(function(res,rej){
     var r=new FileReader(); r.onload=function(e){res(e.target.result.split(',')[1]);}; r.onerror=rej; r.readAsDataURL(f);
   });
-}
-async function ghPut(path, b64, msg) {
-  var r = await fetch('https://api.github.com/repos/'+CFG.GITHUB_OWNER+'/'+CFG.GITHUB_REPO+'/contents/'+path, {
-    method:'PUT',
-    headers:{'Authorization':'Bearer '+CFG.GITHUB_TOKEN,'Content-Type':'application/json','X-GitHub-Api-Version':'2022-11-28'},
-    body:JSON.stringify({message:msg,content:b64})
-  });
-  if (!r.ok) { var d={}; try{d=await r.json();}catch(_){} throw new Error(d.message||'HTTP '+r.status); }
-  return r.json();
 }
 function setStatus(cls, html) {
   var el=document.getElementById('sf-status');
