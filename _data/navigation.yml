@@ -7,7 +7,7 @@ main:
     url: /members/
   - title: "Work With Us"
     url: /work-with-us/
-  - title: "Submit Heterogeneity Data"
+  - title: "Submit Data"
     url: /submit/
   - title: "Publications"
     url: /publications/
