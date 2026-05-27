@@ -76,12 +76,12 @@ permalink: /work-with-us/
     </div>
 
     <div class="job-card">
-      <h3><a href="https://jobs.ashbyhq.com/astera/78e764c4-37f7-4776-8f2f-1d23896546b8" target="_blank" rel="noopener">Scientist — Computational Biophysics</a></h3>
+      <h3><a href="https://jobs.ashbyhq.com/astera/2fab7a6b-bd1f-4264-a218-a0dd6c27367c" target="_blank" rel="noopener">Radial Postdoctoral Fellow – Dynamic Structural Biology (diffUSE Project)</a></h3>
       <p>Astera Institute</p>
     </div>
 
     <div class="job-card">
-      <h3><a href="https://jobs.ashbyhq.com/astera/32822f0a-63d3-4825-8340-f8037fa16953" target="_blank" rel="noopener">Scientist — Structural Biology Machine Learning</a></h3>
+      <h3><a href="https://jobs.ashbyhq.com/astera/bb7496f8-3342-4d8f-a5c6-e891fefa3b0e" target="_blank" rel="noopener">General DiffUSE Job Application</a></h3>
       <p>Astera Institute</p>
     </div>
 
