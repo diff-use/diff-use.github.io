@@ -20,10 +20,6 @@ impact, and reuse -- and we invite others to build on what we find.
 
 ## Our Open Science Resources
 
-**The DiffUSE Hub** -- Our open data repository for diffuse 
-scattering datasets and tools, under active development.  
-[Visit the Hub](https://hub.diffuse.science){: .btn .btn--primary}
-
 **The DiffUSE Logbook** -- A real-time research notebook 
 cataloging synchrotron experiments, X-ray datasets, and 
 unfiltered scientific analyses.  
