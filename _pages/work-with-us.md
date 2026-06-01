@@ -81,6 +81,11 @@ permalink: /work-with-us/
     </div>
 
     <div class="job-card">
+      <h3><a href="https://jobs.ashbyhq.com/astera/d9afacb0-84a3-42ba-b348-50f312cb1499" target="_blank" rel="noopener">Project Manager - DiffUSE Project</a></h3>
+      <p>Astera Institute</p>
+    </div>
+
+    <div class="job-card">
       <h3><a href="https://jobs.ashbyhq.com/astera/bb7496f8-3342-4d8f-a5c6-e891fefa3b0e" target="_blank" rel="noopener">General DiffUSE Job Application</a></h3>
       <p>Astera Institute</p>
     </div>
