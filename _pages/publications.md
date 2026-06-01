@@ -28,3 +28,9 @@ unfiltered scientific analyses.
 **DiffUSE Dispatches** -- Blog posts from our scientists on 
 methods, discoveries, and reflections on working openly.  
 [Read Dispatches](/posts/){: .btn .btn--primary}
+
+**The DiffUSE GitHub** -- A live home for the code, scripts, and 
+analysis pipelines behind our science. We push our work as it 
+takes shape so the community can read, fork, and reuse it 
+immediately, not only at the end of a project.  
+[Browse the GitHub](https://github.com/diff-use){: .btn .btn--primary}
