@@ -15,6 +15,10 @@ Static structures can’t tell us what makes a designed enzyme functional, how d
 
 The DiffUSE project is building the methods, tools, and infrastructure to make protein motion visible, measurable, and usable, so this frontier becomes accessible to endless biological questions.
 
+<div style="border-left: 4px solid #e35821; background: rgba(227,88,33,.06); padding: 1rem 1.25rem; margin: 1.5rem 0; border-radius: 4px;">
+  <strong>See our work in progress.</strong> We share articles, logbook entries, dispatches, and code as the project unfolds. <a href="/publications/" style="font-weight: 600; color: #e35821;">Visit the Publications page →</a>
+</div>
+
 ## Four Areas of Focus
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.25rem; margin: 1.5rem 0 2.5rem;">
