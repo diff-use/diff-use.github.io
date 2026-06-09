@@ -18,6 +18,14 @@ methods, but new ways of working together openly. By publishing
 our work as it happens, we maximize its potential for broad reach, 
 impact, and reuse -- and we invite others to build on what we find.
 
+## Scholarly Work
+
+**_sampleworks_: A Modular Platform for Experimentally Guided 
+Biomolecular Ensemble Generation**  
+Karson Chrispens, Marcus Collins, Doris Mai, Stephanie A. Wankowicz, 
+James S. Fraser, Henry van den Bedem. *The Stacks*, 2026.  
+[Read the article](https://doi.org/10.82153/jkxj-tw08){: .btn .btn--primary}
+
 ## Our Open Science Resources
 
 **The DiffUSE Logbook** -- A real-time research notebook 
