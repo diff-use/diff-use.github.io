@@ -56,7 +56,7 @@ spmeisburger:
   bio:      Scientist at Cornell/CHESS
   avatar:   /assets/images/members/meisburger.jpg
   member:   true
-  email:    spm82@cornell.edu 
+  email:    spm82@cornell.edu
 
 stephaniewankowicz:
   name:     Stephanie Wankowicz
@@ -70,11 +70,11 @@ mewall:
   bio:      Scientist
   avatar:   /assets/images/members/wall.jpg
   member:   true
-  email:    mewall00@gmail.com 
+  email:    mewall00@gmail.com
 
 seemaychou:
   name:     Seemay Chou
-  bio:      President, Astera Institute 
+  bio:      President, Astera Institute
   avatar:   /assets/images/members/chou.jpg
   member:   true
 
@@ -86,7 +86,7 @@ kara-zielinski:
   email:    kara.zielinski@ucsf.edu
 
 andybphd:
-  name:     Andy Burnim
+  name:     Andy Burnim, PhD
   bio:      Project Manager @ Astera
   avatar:   /assets/images/members/burnim.jpg
   member:   true
