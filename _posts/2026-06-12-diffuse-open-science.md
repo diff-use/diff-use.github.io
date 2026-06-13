@@ -1,7 +1,7 @@
 ---
 layout: single
 title: 'DiffUSE Open Science Policies and Guidelines'
-author: andybphd
+author: stephaniewankowicz
 date: 2026-06-12
 categories:
   - post
