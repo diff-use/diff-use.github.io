@@ -47,6 +47,19 @@ feature_row_philosophy:
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.5em; justify-content: center; margin: 2em auto; max-width: 1100px; padding: 0 1em;">
 
+  <a href="https://github.com/diff-use" target="_blank" rel="noopener"
+     style="flex: 1 1 280px; max-width: 340px; position: relative; background: rgba(227,88,33,.04); border-left: 6px solid #e35821; border-radius: 8px; padding: 1.5em 1.75em; text-decoration: none; color: inherit; box-shadow: 0 1px 3px rgba(0,0,0,.06); transition: box-shadow .2s, transform .2s;"
+     onmouseover="this.style.boxShadow='0 4px 12px rgba(0,0,0,.12)'; this.style.transform='translateY(-2px)';"
+     onmouseout="this.style.boxShadow='0 1px 3px rgba(0,0,0,.06)'; this.style.transform='none';">
+    <span style="font-size: .7em; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: #e35821;">Notebook</span><br>
+    <span style="font-size: 1.1em; font-weight: 700; color: inherit;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#e35821" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 4px;"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+      Code
+    </span><br>
+    <span style="font-size: .95em; color: #555; line-height: 1.5;">An open science logbook for cataloging X-ray datasets, synchrotron notes, and unfiltered analyses.</span>
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#e35821" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="position: absolute; top: 1.5em; right: 1.5em;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+  </a>
+
   <a href="https://diffuse.science/logbook/" target="_blank" rel="noopener"
      style="flex: 1 1 280px; max-width: 340px; position: relative; background: rgba(227,88,33,.04); border-left: 6px solid #e35821; border-radius: 8px; padding: 1.5em 1.75em; text-decoration: none; color: inherit; box-shadow: 0 1px 3px rgba(0,0,0,.06); transition: box-shadow .2s, transform .2s;"
      onmouseover="this.style.boxShadow='0 4px 12px rgba(0,0,0,.12)'; this.style.transform='translateY(-2px)';"
@@ -54,7 +67,7 @@ feature_row_philosophy:
     <span style="font-size: .7em; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: #e35821;">Notebook</span><br>
     <span style="font-size: 1.1em; font-weight: 700; color: inherit;">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#e35821" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 4px;"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-      The DiffUSE Logbook
+      Data Collection Dispatches
     </span><br>
     <span style="font-size: .95em; color: #555; line-height: 1.5;">An open science logbook for cataloging X-ray datasets, synchrotron notes, and unfiltered analyses.</span>
     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#e35821" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="position: absolute; top: 1.5em; right: 1.5em;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
@@ -67,12 +80,25 @@ feature_row_philosophy:
     <span style="font-size: .7em; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: #e35821;">Blog</span><br>
     <span style="font-size: 1.1em; font-weight: 700; color: inherit;">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#e35821" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 4px;"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg>
-      DiffUSE Dispatches
+      Blog Posts
     </span><br>
     <span style="font-size: .95em; color: #555; line-height: 1.5;">Blog posts from our scientists on methods, discoveries, and open science.</span>
     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#e35821" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="position: absolute; top: 1.5em; right: 1.5em;"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
   </a>
 
+  <a href="https://thestacks.org/organizations/radial"
+     style="flex: 1 1 280px; max-width: 340px; position: relative; background: rgba(227,88,33,.04); border-left: 6px solid #e35821; border-radius: 8px; padding: 1.5em 1.75em; text-decoration: none; color: inherit; box-shadow: 0 1px 3px rgba(0,0,0,.06); transition: box-shadow .2s, transform .2s;"
+     onmouseover="this.style.boxShadow='0 4px 12px rgba(0,0,0,.12)'; this.style.transform='translateY(-2px)';"
+     onmouseout="this.style.boxShadow='0 1px 3px rgba(0,0,0,.06)'; this.style.transform='none';">
+    <span style="font-size: .7em; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: #e35821;">Blog</span><br>
+    <span style="font-size: 1.1em; font-weight: 700; color: inherit;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#e35821" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 4px;"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg>
+      Scholarly Work
+    </span><br>
+    <span style="font-size: .95em; color: #555; line-height: 1.5;">Blog posts from our scientists on methods, discoveries, and open science.</span>
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#e35821" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="position: absolute; top: 1.5em; right: 1.5em;"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+  </a>
+  
 </div>
 
 <h2 style="text-align: center;"><a href="/posts/" style="text-decoration: none; color: inherit;">Latest Posts from our Scientists</a></h2>
