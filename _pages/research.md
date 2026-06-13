@@ -13,10 +13,10 @@ Biology is a study of motion and change — yet we still rely on frozen snapshot
 
 Static structures can’t tell us what makes a designed enzyme functional, how dynamics shape drug efficacy and resistance, or how motion itself can be engineered and optimized. These are the questions at the frontier of drug discovery, enzyme design, and disease research. 
 
-The DiffUSE project is building the methods, tools, and infrastructure to make protein motion visible, measurable, and usable, so this frontier becomes accessible to endless biological questions.
+The DiffUSE project is building the methods, tools, and infrastructure to make protein motion visible, measurable, and usable, so that this frontier becomes accessible to an endless range of biological questions.
 
 <div style="border-left: 4px solid #e35821; background: rgba(227,88,33,.06); padding: 1rem 1.25rem; margin: 1.5rem 0; border-radius: 4px;">
-  <strong>See our work in progress.</strong> We share articles, logbook entries, dispatches, and code as the project unfolds. <a href="/publications/" style="font-weight: 600; color: #e35821;">Visit the Publications page →</a>
+  <strong>See our work in progress.</strong> We share scholarly work, blog posts, dispatches, and code openly as the project unfolds. <a href="/publications/" style="font-weight: 600; color: #e35821;">Visit the Publications page →</a>
 </div>
 
 ## Four Areas of Focus
