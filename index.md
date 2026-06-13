@@ -67,9 +67,9 @@ feature_row_philosophy:
     <span style="font-size: .7em; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: #e35821;">Notebook</span><br>
     <span style="font-size: 1.1em; font-weight: 700; color: inherit;">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#e35821" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 4px;"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-      Data Collection Dispatches
+      Data Collection Logbook
     </span><br>
-    <span style="font-size: .95em; color: #555; line-height: 1.5;">An open science logbook for cataloging X-ray datasets, synchrotron notes, and unfiltered analyses.</span>
+    <span style="font-size: .95em; color: #555; line-height: 1.5;">An open science logbook for cataloging X-ray data collection.</span>
     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#e35821" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="position: absolute; top: 1.5em; right: 1.5em;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
   </a>
 
@@ -82,7 +82,7 @@ feature_row_philosophy:
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#e35821" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 4px;"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg>
       Blog Posts
     </span><br>
-    <span style="font-size: .95em; color: #555; line-height: 1.5;">Blog posts from our scientists on methods, discoveries, and open science.</span>
+    <span style="font-size: .95em; color: #555; line-height: 1.5;">Blog posts from our scientists.</span>
     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#e35821" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="position: absolute; top: 1.5em; right: 1.5em;"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
   </a>
 
@@ -95,7 +95,7 @@ feature_row_philosophy:
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#e35821" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 4px;"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg>
       Scholarly Work
     </span><br>
-    <span style="font-size: .95em; color: #555; line-height: 1.5;">Blog posts from our scientists on methods, discoveries, and open science.</span>
+    <span style="font-size: .95em; color: #555; line-height: 1.5;">Scholarly work from the DiffUSE Project.</span>
     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#e35821" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="position: absolute; top: 1.5em; right: 1.5em;"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
   </a>
   
