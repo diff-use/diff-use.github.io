@@ -12,7 +12,7 @@ toc_sticky: true
 ## An ambitious push to unlock protein dynamics
 Static protein structures have transformed our understanding of life. But they are snapshots of molecules that are fundamentally in motion. Proteins’ function is critically linked to this motion. Uncovering these motions will unlock new ways to understand disease, design better drugs, and engineer proteins with precise, tunable function. Read more about the project [here](https://diffuse.science/posts/expanding_diffuse/).
 
-The DiffUSE Project was co-developed with funders and scientists. The team includes both dedicated staff and institutional researchers to enable rapid infrastructure development and specialized basic research.
+The DiffUSE Project is completely open, following [Astera's Open Science Policy](https://zenodo.org/records/17795285). The project was co-developed with funders and scientists. The team includes both dedicated staff and institutional researchers to enable rapid infrastructure development and specialized basic research.
 
 
 ### Four critical questions guiding our research
@@ -37,7 +37,7 @@ The DiffUSE Project was co-developed with funders and scientists. The team inclu
 
 </div>
 
-We believe that changing the structural biology ecosystem will require not just new methods but also new ways we work together as scientists. Namely, we are experimenting with how we coordinate efforts across the team and also how we share our scientific process and results. Read more about the philosophy behind the project [here](https://seemay.substack.com/p/from-systems-operators-to-systems).
+We believe that changing the structural biology ecosystem will require not just new methods but also new ways we work together as scientists. Namely, we are experimenting with how we coordinate efforts across the team and share our scientific process and results. Read more about the philosophy behind the project [here](https://seemay.substack.com/p/from-systems-operators-to-systems).
 
 ## Why now?
 Static structures have plateaued. Most of our structural biology models only encode a single snapshot. But the underlying data provides a much richer view into the dynamics of these molecules. However, extracting this rich information involves changing the entire ecosystem, including how we collect, model, encode, and interpret these signals. 
@@ -46,19 +46,19 @@ Static structures have plateaued. Most of our structural biology models only enc
 
 We are a distributed team experimenting with new ways to fund multiple parts of the pipeline simultaneously, enabling team members to design and coordinate across dimensions. We believe in a more holistic approach to rethinking what changes are possible and scalable.
 
-## Novel publishing practices
+## Open Science
 
-We strive for scientific rigor while ensuring our tools are broadly useful, as widespread adoption across the structural biology community will amplify our impact in both basic and translational science. To achieve this, we commit to opening our processes and [sharing our methods as early as possible](https://diffuse.science/posts/).
+We envision a future in which all research outputs are shared rapidly and openly. To support this future, the DiffUSE Project is fully open, in line with [Astera's Open Science Policy](https://zenodo.org/records/17795285). We aim to rapidly share our data and results through multiple formats. 
 
 ### How we are sharing our science
 
-We are experimenting with novel [publishing practices](https://zenodo.org/records/15548989) outside of traditional journals, in accordance with Astera’s publication policy. 
-
-- [The DiffUSE Project Logbook](http://diffuse.science/logbook): Data from our diffuse scattering project, including catalog X-ray datasets, collect notes from synchrotron data collection, share reports from data processing, and post preliminary analysis without filters.
-
-- [The DiffUSE Data Management App](https://app.diffuse.science): Under active development, this site will function to document experiment processing with markdown, images, tables, and rich metadata fields for comprehensive research tracking across datasets and beamlines.
+- [The DiffUSE GitHub](https://github.com/diff-use): Open code repository for all DiffUSE Project. 
 
 - [Posts from our Scientists](https://diffuse.science/posts/): Read direct dispatches from our distributed DiffUSE team.
+
+- [The DiffUSE Project Logbook](http://diffuse.science/logbook): Notes from synchrotron data collection.
+
+- [The Stacks](https://thestacks.org/organizations/radial): Scholarly work by the DiffUSE Project.
 
 
 Check back with us [here](https://diffuse.science/posts/) for updates on all of our various experiments!
