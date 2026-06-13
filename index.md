@@ -51,7 +51,7 @@ feature_row_philosophy:
      style="flex: 1 1 280px; max-width: 340px; position: relative; background: rgba(227,88,33,.04); border-left: 6px solid #e35821; border-radius: 8px; padding: 1.5em 1.75em; text-decoration: none; color: inherit; box-shadow: 0 1px 3px rgba(0,0,0,.06); transition: box-shadow .2s, transform .2s;"
      onmouseover="this.style.boxShadow='0 4px 12px rgba(0,0,0,.12)'; this.style.transform='translateY(-2px)';"
      onmouseout="this.style.boxShadow='0 1px 3px rgba(0,0,0,.06)'; this.style.transform='none';">
-    <span style="font-size: .7em; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: #e35821;">Notebook</span><br>
+    <span style="font-size: .7em; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: #e35821;">Code</span><br>
     <span style="font-size: 1.1em; font-weight: 700; color: inherit;">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#e35821" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 4px;"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
       Code
@@ -64,7 +64,7 @@ feature_row_philosophy:
      style="flex: 1 1 280px; max-width: 340px; position: relative; background: rgba(227,88,33,.04); border-left: 6px solid #e35821; border-radius: 8px; padding: 1.5em 1.75em; text-decoration: none; color: inherit; box-shadow: 0 1px 3px rgba(0,0,0,.06); transition: box-shadow .2s, transform .2s;"
      onmouseover="this.style.boxShadow='0 4px 12px rgba(0,0,0,.12)'; this.style.transform='translateY(-2px)';"
      onmouseout="this.style.boxShadow='0 1px 3px rgba(0,0,0,.06)'; this.style.transform='none';">
-    <span style="font-size: .7em; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: #e35821;">Notebook</span><br>
+    <span style="font-size: .7em; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: #e35821;">Logbook</span><br>
     <span style="font-size: 1.1em; font-weight: 700; color: inherit;">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#e35821" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 4px;"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
       Data Collection Logbook
@@ -90,7 +90,7 @@ feature_row_philosophy:
      style="flex: 1 1 280px; max-width: 340px; position: relative; background: rgba(227,88,33,.04); border-left: 6px solid #e35821; border-radius: 8px; padding: 1.5em 1.75em; text-decoration: none; color: inherit; box-shadow: 0 1px 3px rgba(0,0,0,.06); transition: box-shadow .2s, transform .2s;"
      onmouseover="this.style.boxShadow='0 4px 12px rgba(0,0,0,.12)'; this.style.transform='translateY(-2px)';"
      onmouseout="this.style.boxShadow='0 1px 3px rgba(0,0,0,.06)'; this.style.transform='none';">
-    <span style="font-size: .7em; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: #e35821;">Blog</span><br>
+    <span style="font-size: .7em; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: #e35821;">Scholarly Work</span><br>
     <span style="font-size: 1.1em; font-weight: 700; color: inherit;">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#e35821" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 4px;"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg>
       Scholarly Work
