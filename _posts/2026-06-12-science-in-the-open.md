@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'Science in the Open: Open Development for Biomolecular Ensemble Generation'
+title: 'Open Development for Biomolecular Ensemble Generation'
 author: andybphd
 date: 2026-06-12
 categories:
