@@ -20,7 +20,8 @@ If this is not work funded by us but is funded/done independently, building on o
 
 *Written output:* FAIR-compliant i.e., [The Stacks](https://thestacks.org/), [BioRxiv](biorxiv.org), [Zenodo](zenodo.org), Radial is developing [The Stacks](https://thestacks.org/) and is actively working with groups within the Radial ecosystem to identify the best way to communicate the findings. 
 
-Publish as you go - do not wait for a ‘completed story’
+*Publish as you go:* Do not wait for a ‘completed story’
+
 *Code:* Repositories should be developed in the open. 
 
 *Data release:* Before or at publication release. Use a reasonable balance of releasing data that does not over-burden researchers, but does not hold back data 
